@@ -3,7 +3,7 @@
     You can adapt this file completely to your liking, but it should at least
     contain the root `toctree` directive.
 
-Titre du travail de maturité
+Création du site internet destiné au Comité Etudiant Humanitaire du Collège du Sud
 ============================
 
 ..  toctree::
@@ -11,7 +11,7 @@ Titre du travail de maturité
     :caption: Table des matières
 
     introduction.md
-    chapitre-01.md
+    technologies-utilisees.md
     chapitre-02.md
     chapitre-03.md
     todo.rst
