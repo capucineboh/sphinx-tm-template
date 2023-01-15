@@ -3,7 +3,11 @@
     You can adapt this file completely to your liking, but it should at least
     contain the root `toctree` directive.
 
+<<<<<<< HEAD
 Création du site internet destiné au Comité Etudiant Humanitaire du Collège du Sud
+=======
+Création du site Web déstiné au Comité Etudiant Humanitaire du Collège du Sud
+>>>>>>> 1f8b284 (ajouts de textes et images)
 ============================
 
 ..  toctree::
