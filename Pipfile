@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sphinx = "*"
+sphinxcontrib-bibtex = "*"
 
 [dev-packages]
 
