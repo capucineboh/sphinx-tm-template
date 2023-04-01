@@ -3,7 +3,7 @@
     You can adapt this file completely to your liking, but it should at least
     contain the root `toctree` directive.
 
-Création du site internet destiné au Comité Etudiant Humanitaire du Collège du Sud
+Création du site internet destiné au Comité Étudiant Humanitaire du Collège du Sud
 ============================
 
 ..  toctree::
@@ -14,7 +14,9 @@ Création du site internet destiné au Comité Etudiant Humanitaire du Collège 
     chapitre-01.md
     chapitre-02.md
     chapitre-03.md
-    todo.rst
+    chapitre-04.md 
+    chapitre-05.md
+    chapitre-06.md
 
 ..  toctree::
     :maxdepth: 2
