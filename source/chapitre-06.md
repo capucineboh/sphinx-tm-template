@@ -3,9 +3,9 @@
 \appendix
 
 ```
+# Annexes
 
-
-# Déclaration personnelle
+## Déclaration personnelle
 
 ```{raw} latex
 {

@@ -2,7 +2,7 @@
 
 ## Mise en Route 
 
-1.	Pour mettre en route le site internet, il nécessaire de se rendre sur [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet") en passant par chrome, puis y ajouter la particule `gitpod.io#` au début.   [^1] 
+1.	Pour mettre en route le site internet, il nécessaire de se rendre sur [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet") en passant par chrome, puis y ajouter la particule `gitpod.io#` au début. [^1]    
 2.	À la suite de cette manipulation, le projet s’ouvre dans GitPod, une plateforme de développement en ligne permettant de travailler sur les projets sans installer d'environnement de développement. Ceci permet la non-nécessité d’installer quelque application de développement.      
 3.	Une fois le projet ouvert dans GitPod, il faut le démarrer. Pour ce faire, il faut inscrire la commande `python -m http.server 8000` dans le terminal, puis sélectionner le bouton « open in browser » de la fenêtre ouverte à l’occasion de la commande effectuée.       
 
@@ -11,6 +11,9 @@ Enfin, une page où il est possible de naviguer sur le site s’est ouverte.
 ## Installation
 
 {cite:p}`documentation-github`
+[Documentation GitHub]({{cite:p}}documentation-github) [^2]
+
+
 
 S’il est souhaité d’installer le projet localement, il est nécessaire de procéder de la manière suivante :
 
@@ -27,6 +30,7 @@ De cette manière, le site peut être ouvert à n’importe quel moment, directe
 ## Contributions  
 
 {cite:p}`documentation-gitclone` 
+[Documentation Git clone]({{cite:p}}documentation-gitclone) [^3]
 
 Il est possible pour tous développeur d’apporter des modifications à ce projet, elles sont d’ailleurs les bienvenues. Ce site demande d’ailleurs à être mis-à-jour de manière régulière, afin qu’il reste actif et utile pour le comité. Plusieurs manipulations sont nécessaires à la contribution au site web de Candide.       
  
@@ -49,10 +53,11 @@ Il est possible pour tous développeur d’apporter des modifications à ce proj
 #### HTML
 
 {cite:p}`documentation-meta`
+[Documentation Métadonnées]({{cite:p}}documentation-meta) [^4]
 
 Le code du site web de Candide est structuré conformément aux règles d’usage. Il est composé de quatre fichiers HTML correspondant aux quatre pages du site. Ceux-ci forment le squelette du site internet, car le langage de programmation HTML est un langage de balisage, ce qui signifie qu’il permet d’organiser les éléments d’une page par leur type. Ces quatre fichiers déterminent la façon dont les différents éléments de la page, tels que les titres, les paragraphes, les images, les liens, les boutons et les formulaires, sont organisés et disposés sur celle-ci. C’est à l’intérieur de ces différents types de balises que se trouvent également les textes et les images qui forment le contenu du site.       
 
-###### Métadonnées
+##### Métadonnées
 
 Les métadonnées sont des informations qui ne sont pas affichées directement sur le site web, mais qui sont stockées dans le code HTML de la page et sont utilisées par les moteurs de recherches pour comprendre le contenu de la page et pour effectuer des opérations de référencement. En effet, elles aident les navigateurs à savoir à quelle position le site web doit figurer lorsque des recherches sont effectuées.      
 
@@ -67,7 +72,7 @@ Cette partie du code est également souvent complétée par la balise `title`. C
 Le code de ce projet contient également un fichier CSS. Il est utilisé pour définir la présentation visuelle de la page web, plus communément appelé le « style » de la page. Il permet donc de préciser les différentes caractéristiques des éléments du HTML, comme les couleurs, les polices, les tailles et les dispositions.        
 Le langage de programmation CSS permet également la création de mises en page plus complexes grâce à des techniques telles que les types de positions, les ` z-index `, les `grid` et les `Flex-box`, qui permettent une bonne organisation du contenu.      
 
-###### Responsivity
+##### Responsivity
 
 Le document CSS de ce projet est séparé en deux parties distinctes : une pour les écrans de plus de 1000 pixels de largeur (ordinateurs), et la seconde pour les appareils dotés d’un plus petit écran (smartphones). Cette distinction est possible grâce à la fonctionnalité `@media screen and (min/max-width: 1000px)`, alors l’affichage sera différent sur ces deux types d’écrans différents. Cette fonctionnalité s’appelle le « responsive design ». L’organisation interne de ces sections est similaire. En effet, elles commencent toutes deux par des « class » générales, puis se précisent avec d’autres `class` complémentaires. L’ordre dépend de l’ordre chronologique de la visite du site web, en commençant par la page d’accueil et en terminant par la page contact.    
 
@@ -109,3 +114,7 @@ Ensuite, le design du site web est responsive. La mise-en-page s’adapte donc �
 Aussi, le CSS pouvant être très répétitif, il est défini par groupes. En effet, les classes de certains éléments de mêmes types ne se différencient que par quelques caractéristiques, il est alors intéressant de créer une classe générale et que les précisions stylistiques soient apportées dans d’autres classes. Ce biais permet d’éviter les nombreuses répétitions qui peuvent souvent être trouvées dans un fichier CSS lorsque les bonnes pratiques de programmations ne sont pas appliquées.          
  
  
+[^1]: https://github.com/capucineboh/site-candide 
+[^2]: https://docs.github.com/en 
+[^3]: https://github.com/git-guides/git-clone
+[^4]: https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta
