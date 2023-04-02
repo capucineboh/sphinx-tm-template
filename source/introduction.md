@@ -37,13 +37,18 @@ Ce travail est séparé en six parties distinctes :
   
 1.	La documentation « utilisateur » présentant comment mettre en route le projet d’un point de vue des internautes qui consulteront le site. Ce premier axe présente aussi les différentes fonctionnalités du travail et ses apports. 
 
+
 2.	La documentation « développeur » permet d’expliquer les différentes étapes de création du projet et sa structure générale. Aussi, ce volet présente les technologies utilisées tout au long de la création de ce site web. 
+
 
 3.	Un regard critique sur le projet réalisé et un retour sur les objectifs non-atteints. Cette section présente les problèmes restant et les modifications qu’il serait préférable d’apporter avant la mise en ligne du site.
 
+
 4.	Une conclusion par l’indication des objectifs initiaux remplis et un résumé des points majeurs de ce travail. 
 
+
 5.	Une section finale offrant une ouverture sur les potentielles améliorations futures. 
+
 
 6.	Les annexes qui sont composées des travaux complémentaires au projet. Les choix artistiques et les compréhensions des besoins de l’association y sont notamment décrits.
 

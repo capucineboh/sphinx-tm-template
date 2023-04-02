@@ -9,7 +9,7 @@
 
 ```{raw} latex
 {
-\setstretch{1.5}
+
 \large
 \begin{tabbing}
 \textbf{Nom:} ~~~~~ \=  \= \studentlastname \\
@@ -52,7 +52,6 @@
 
     ```{raw} latex
     {
-    \setstretch{1.5}
     \square \quad \text{oui} \\
     \square \quad \text{non (car il contient des données personnelles et sensibles).}
     }
@@ -60,7 +59,6 @@
 
 ```{raw} latex
 {
-\setstretch{2.5}
 \large
 \begin{tabbing}
 \textbf{Lieu, date:} ~~ \=  \= \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots \\

@@ -243,7 +243,12 @@ Le design du site est responsive ce qui signifie qu’il a été pensé pour êt
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Pour mettre en route le site internet, il nécessaire de se rendre sur \sphinxhref{https://github.com/capucineboh/site-candide}{ce lien} (https://github.com/capucineboh/site\sphinxhyphen{}candide) en passant par chrome, puis y ajouter la particule \sphinxcode{\sphinxupquote{gitpod.io\#}} au début.   {[}\textasciicircum{}1{]}
+Pour mettre en route le site internet, il nécessaire de se rendre sur \sphinxhref{https://github.com/capucineboh/site-candide}{ce lien} (https://github.com/capucineboh/site\sphinxhyphen{}candide)\sphinxstepexplicit %
+\begin{footnote}[1]\phantomsection\label{\thesphinxscope.1}%
+\sphinxAtStartFootnote
+https://github.com/capucineboh/site\sphinxhyphen{}candide
+%
+\end{footnote} en passant par chrome, puis y ajouter la particule \sphinxcode{\sphinxupquote{gitpod.io\#}} au début.
 
 \item {} 
 \sphinxAtStartPar
@@ -263,6 +268,12 @@ Enfin, une page où il est possible de naviguer sur le site s’est ouverte.
 \label{\detokenize{chapitre-02:installation}}
 \sphinxAtStartPar
 {[}{]}
+\DUrole{xref,myst}{Documentation GitHub} \sphinxstepexplicit %
+\begin{footnote}[2]\phantomsection\label{\thesphinxscope.2}%
+\sphinxAtStartFootnote
+https://docs.github.com/en
+%
+\end{footnote}
 
 \sphinxAtStartPar
 S’il est souhaité d’installer le projet localement, il est nécessaire de procéder de la manière suivante :
@@ -294,6 +305,12 @@ De cette manière, le site peut être ouvert à n’importe quel moment, directe
 \label{\detokenize{chapitre-02:contributions}}
 \sphinxAtStartPar
 {[}{]}
+\DUrole{xref,myst}{Documentation Git clone} \sphinxstepexplicit %
+\begin{footnote}[3]\phantomsection\label{\thesphinxscope.3}%
+\sphinxAtStartFootnote
+https://github.com/git\sphinxhyphen{}guides/git\sphinxhyphen{}clone
+%
+\end{footnote}
 
 \sphinxAtStartPar
 Il est possible pour tous développeur d’apporter des modifications à ce projet, elles sont d’ailleurs les bienvenues. Ce site demande d’ailleurs à être mis\sphinxhyphen{}à\sphinxhyphen{}jour de manière régulière, afin qu’il reste actif et utile pour le comité. Plusieurs manipulations sont nécessaires à la contribution au site web de Candide.
@@ -301,7 +318,7 @@ Il est possible pour tous développeur d’apporter des modifications à ce proj
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Il faut forker \sphinxhref{https://github.com/capucineboh/site-candide}{ce lien} (https://github.com/capucineboh/site\sphinxhyphen{}candide), en passant par chrome, puis y ajouter la particule \sphinxcode{\sphinxupquote{gitpod.io\#}} au début.   {[}\textasciicircum{}1{]}
+Il faut forker \sphinxhref{https://github.com/capucineboh/site-candide}{ce lien} (https://github.com/capucineboh/site\sphinxhyphen{}candide)\sphinxfootnotemark[1], en passant par chrome, puis y ajouter la particule \sphinxcode{\sphinxupquote{gitpod.io\#}} au début.\\
 « Forker » signifie créer une copie indépendante sur son propre compte GitHub. Cette copie vous permet de travailler sur le code sans affecter l’original, ce qui est voulu ici.
 
 \item {} 
@@ -326,19 +343,22 @@ Dans le but que ces modifications soient ajoutées au projet initial, une derni�
 \section{Structure du code et rôle des différents fichiers}
 \label{\detokenize{chapitre-02:structure-du-code-et-role-des-differents-fichiers}}
 
-\subsection{Structure du code}
-\label{\detokenize{chapitre-02:structure-du-code}}
-
-\subsubsection{HTML}
+\subsection{HTML}
 \label{\detokenize{chapitre-02:html}}
 \sphinxAtStartPar
 {[}{]}
+\DUrole{xref,myst}{Documentation Métadonnées} \sphinxstepexplicit %
+\begin{footnote}[4]\phantomsection\label{\thesphinxscope.4}%
+\sphinxAtStartFootnote
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta
+%
+\end{footnote}
 
 \sphinxAtStartPar
 Le code du site web de Candide est structuré conformément aux règles d’usage. Il est composé de quatre fichiers HTML correspondant aux quatre pages du site. Ceux\sphinxhyphen{}ci forment le squelette du site internet, car le langage de programmation HTML est un langage de balisage, ce qui signifie qu’il permet d’organiser les éléments d’une page par leur type. Ces quatre fichiers déterminent la façon dont les différents éléments de la page, tels que les titres, les paragraphes, les images, les liens, les boutons et les formulaires, sont organisés et disposés sur celle\sphinxhyphen{}ci. C’est à l’intérieur de ces différents types de balises que se trouvent également les textes et les images qui forment le contenu du site.
 
 
-\paragraph{Métadonnées}
+\subsubsection{Métadonnées}
 \label{\detokenize{chapitre-02:metadonnees}}
 \sphinxAtStartPar
 Les métadonnées sont des informations qui ne sont pas affichées directement sur le site web, mais qui sont stockées dans le code HTML de la page et sont utilisées par les moteurs de recherches pour comprendre le contenu de la page et pour effectuer des opérations de référencement. En effet, elles aident les navigateurs à savoir à quelle position le site web doit figurer lorsque des recherches sont effectuées.
@@ -351,14 +371,14 @@ La métadonnée \sphinxcode{\sphinxupquote{content=“width=1200px , initial\sph
 Cette partie du code est également souvent complétée par la balise \sphinxcode{\sphinxupquote{title}}. Celle\sphinxhyphen{}ci contient le titre de la page, celui inscrit sur l’onglet du site web, une fois le site ouvert.
 
 
-\subsubsection{CSS}
+\subsection{CSS}
 \label{\detokenize{chapitre-02:css}}
 \sphinxAtStartPar
 Le code de ce projet contient également un fichier CSS. Il est utilisé pour définir la présentation visuelle de la page web, plus communément appelé le « style » de la page. Il permet donc de préciser les différentes caractéristiques des éléments du HTML, comme les couleurs, les polices, les tailles et les dispositions.\\
 Le langage de programmation CSS permet également la création de mises en page plus complexes grâce à des techniques telles que les types de positions, les \sphinxcode{\sphinxupquote{z\sphinxhyphen{}index}}, les \sphinxcode{\sphinxupquote{grid}} et les \sphinxcode{\sphinxupquote{Flex\sphinxhyphen{}box}}, qui permettent une bonne organisation du contenu.
 
 
-\paragraph{Responsivity}
+\subsubsection{Responsivity}
 \label{\detokenize{chapitre-02:responsivity}}
 \sphinxAtStartPar
 Le document CSS de ce projet est séparé en deux parties distinctes : une pour les écrans de plus de 1000 pixels de largeur (ordinateurs), et la seconde pour les appareils dotés d’un plus petit écran (smartphones). Cette distinction est possible grâce à la fonctionnalité \sphinxcode{\sphinxupquote{@media screen and (min/max\sphinxhyphen{}width: 1000px)}}, alors l’affichage sera différent sur ces deux types d’écrans différents. Cette fonctionnalité s’appelle le « responsive design ». L’organisation interne de ces sections est similaire. En effet, elles commencent toutes deux par des « class » générales, puis se précisent avec d’autres \sphinxcode{\sphinxupquote{class}} complémentaires. L’ordre dépend de l’ordre chronologique de la visite du site web, en commençant par la page d’accueil et en terminant par la page contact.
@@ -390,7 +410,7 @@ L’élément \sphinxcode{\sphinxupquote{grid}} en parallèle à Flex\sphinxhyph
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Pour mettre en route le site internet, il nécessaire de se rendre sur \sphinxhref{https://github.com/capucineboh/site-candide}{ce lien} (https://github.com/capucineboh/site\sphinxhyphen{}candide) en passant par chrome, puis y ajouter la particule \sphinxcode{\sphinxupquote{gitpod.io\#}} au début.   {[}\textasciicircum{}1{]}
+Pour mettre en route le site internet, il nécessaire de se rendre sur \sphinxhref{https://github.com/capucineboh/site-candide}{ce lien} (https://github.com/capucineboh/site\sphinxhyphen{}candide)\sphinxfootnotemark[1]make tm en passant par chrome, puis y ajouter la particule \sphinxcode{\sphinxupquote{gitpod.io\#}} au début.
 
 \item {} 
 \sphinxAtStartPar
@@ -409,9 +429,9 @@ Pour finir, une page où il est possible de naviguer sur le site internet crée 
 
 \section{Présentation des outils sous\sphinxhyphen{}jacents au projet}
 \label{\detokenize{chapitre-02:presentation-des-outils-sous-jacents-au-projet}}
-\sphinxAtStartPar
-\#\#\#Technologies spécifiques
 
+\subsection{Technologies spécifiques}
+\label{\detokenize{chapitre-02:technologies-specifiques}}
 \sphinxAtStartPar
 Le logiciel Adobe XD a été utilisé pour l’élaboration des maquettes de ce projet. C’est un logiciel de prototypage d’interfaces de sites web et d’applications mobiles / de bureau permettant de créer des maquettes interactives pour tester l’expérience utilisateur au mieux.\\
 Ce logiciel offre de nombreux outils pour faciliter le processus de conception comme : la possibilité de créer des grid, des layout et des modèles pour garder une certaine cohérence dans le design. Parmi les avantages d’Adobe XD, on peut citer sa fonctionnalité de partage de prototypes permettant de présenter le design à des collaborateurs pour obtenir des retours rapidement. Il offre aussi la possibilité de créer des prototypes interactifs qui peuvent être utilisés pour tester l’expérience utilisateur et recueillir des commentaires et critiques. Cela permet d’optimiser le design avant le développement du site et de s’assurer que l’expérience utilisateur est optimale.\\
@@ -426,6 +446,10 @@ Plusieurs techniques et bonnes pratiques sont appliquées dans la création du s
 Tout d’abord, ce site est accessible à tous. Le design est pensé pour rendre la navigation intuitive et naturelle. De plus, chaque image contient un texte de remplacement, qui rend leur présence possible pour les personnes malvoyantes. Aussi, les couleurs sont plutôt contrastées, ce qui permet une meilleure analyse des différents éléments de la page.\\
 Ensuite, le design du site web est responsive. La mise\sphinxhyphen{}en\sphinxhyphen{}page s’adapte donc à tous type d’écrans. Il est important de concevoir un design utilisable sur différents supports. À l’aide de techniques telles que les \sphinxcode{\sphinxupquote{media queries}} et les \sphinxcode{\sphinxupquote{Flex\sphinxhyphen{}box}} le site correspond à toutes les tailles d’appareils.\\
 Aussi, le CSS pouvant être très répétitif, il est défini par groupes. En effet, les classes de certains éléments de mêmes types ne se différencient que par quelques caractéristiques, il est alors intéressant de créer une classe générale et que les précisions stylistiques soient apportées dans d’autres classes. Ce biais permet d’éviter les nombreuses répétitions qui peuvent souvent être trouvées dans un fichier CSS lorsque les bonnes pratiques de programmations ne sont pas appliquées.
+
+
+\bigskip\hrule\bigskip
+
 
 
 \chapter{Regard Critique}
@@ -532,10 +556,13 @@ De plus, afin d’améliorer l’expérience utilisateur, il serait intéressant
 
 
 
-\chapter{Déclaration personnelle}
-\label{\detokenize{chapitre-06:declaration-personnelle}}\label{\detokenize{chapitre-06::doc}}
+\chapter{Annexes}
+\label{\detokenize{chapitre-06:annexes}}\label{\detokenize{chapitre-06::doc}}
+
+\section{Déclaration personnelle}
+\label{\detokenize{chapitre-06:declaration-personnelle}}
 {
-\setstretch{1.5}
+
 \large
 \begin{tabbing}
 \textbf{Nom:} ~~~~~ \=  \= \studentlastname \\
@@ -586,7 +613,6 @@ J’autorise la consultation de mon travail par des tierces personnes à des
 fins pédagogiques et/ou d’information interne à l’école :
 
 {
-\setstretch{1.5}
 \square \quad \text{oui} \\
 \square \quad \text{non (car il contient des données personnelles et sensibles).}
 }
@@ -594,7 +620,6 @@ fins pédagogiques et/ou d’information interne à l’école :
 \end{enumerate}
 
 {
-\setstretch{2.5}
 \large
 \begin{tabbing}
 \textbf{Lieu, date:} ~~ \=  \= \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots \\
@@ -679,19 +704,6 @@ Après plusieurs discussions et modifications de chaque maquette, l’idée sél
 
 \noindent\sphinxincludegraphics[width=1.000\linewidth]{{Proto_final}.png}
 \caption{Maquette finale du site de Candide}\label{\detokenize{chapitre-06:id4}}\end{figure}
-
-
-\chapter{Indices and tables}
-\label{\detokenize{index:indices-and-tables}}\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-\DUrole{xref,std,std-ref}{genindex}
-
-\item {} 
-\sphinxAtStartPar
-\DUrole{xref,std,std-ref}{search}
-
-\end{itemize}
 
 
 

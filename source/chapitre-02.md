@@ -2,7 +2,7 @@
 
 ## Mise en Route 
 
-1.	Pour mettre en route le site internet, il nécessaire de se rendre sur [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet") en passant par chrome, puis y ajouter la particule `gitpod.io#` au début. [^1]    
+1.	Pour mettre en route le site internet, il nécessaire de se rendre sur [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet")[^1] en passant par chrome, puis y ajouter la particule `gitpod.io#` au début.     
 2.	À la suite de cette manipulation, le projet s’ouvre dans GitPod, une plateforme de développement en ligne permettant de travailler sur les projets sans installer d'environnement de développement. Ceci permet la non-nécessité d’installer quelque application de développement.      
 3.	Une fois le projet ouvert dans GitPod, il faut le démarrer. Pour ce faire, il faut inscrire la commande `python -m http.server 8000` dans le terminal, puis sélectionner le bouton « open in browser » de la fenêtre ouverte à l’occasion de la commande effectuée.       
 
@@ -34,7 +34,7 @@ De cette manière, le site peut être ouvert à n’importe quel moment, directe
 
 Il est possible pour tous développeur d’apporter des modifications à ce projet, elles sont d’ailleurs les bienvenues. Ce site demande d’ailleurs à être mis-à-jour de manière régulière, afin qu’il reste actif et utile pour le comité. Plusieurs manipulations sont nécessaires à la contribution au site web de Candide.       
  
-1.	Il faut forker [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet"), en passant par chrome, puis y ajouter la particule `gitpod.io#` au début.   [^1] 
+1.	Il faut forker [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet")[^1], en passant par chrome, puis y ajouter la particule `gitpod.io#` au début.    
 « Forker » signifie créer une copie indépendante sur son propre compte GitHub. Cette copie vous permet de travailler sur le code sans affecter l'original, ce qui est voulu ici. 
 
 2.	Maintenant le fork effectué il est nécessaire de clôner le dépôt forké sur GitPod. Ceci est faisable grâce à la commande `git clone https://github.com/capucineboh/site-candide.git`, l’effet de celle-ci est de pouvoir récupérer l’entièreté des documents et fichiers d’un dépôt pour se l’approprier directement.
@@ -48,16 +48,15 @@ Il est possible pour tous développeur d’apporter des modifications à ce proj
 
 ## Structure du code et rôle des différents fichiers
 
-### Structure du code
 
-#### HTML
+### HTML
 
 {cite:p}`documentation-meta`
 [Documentation Métadonnées]({{cite:p}}documentation-meta) [^4]
 
 Le code du site web de Candide est structuré conformément aux règles d’usage. Il est composé de quatre fichiers HTML correspondant aux quatre pages du site. Ceux-ci forment le squelette du site internet, car le langage de programmation HTML est un langage de balisage, ce qui signifie qu’il permet d’organiser les éléments d’une page par leur type. Ces quatre fichiers déterminent la façon dont les différents éléments de la page, tels que les titres, les paragraphes, les images, les liens, les boutons et les formulaires, sont organisés et disposés sur celle-ci. C’est à l’intérieur de ces différents types de balises que se trouvent également les textes et les images qui forment le contenu du site.       
 
-##### Métadonnées
+#### Métadonnées
 
 Les métadonnées sont des informations qui ne sont pas affichées directement sur le site web, mais qui sont stockées dans le code HTML de la page et sont utilisées par les moteurs de recherches pour comprendre le contenu de la page et pour effectuer des opérations de référencement. En effet, elles aident les navigateurs à savoir à quelle position le site web doit figurer lorsque des recherches sont effectuées.      
 
@@ -67,12 +66,12 @@ La balise `charset` est l’une des plus commune. Il s’agit de celle définiss
 La métadonnée `content=“width=1200px , initial-scale=1.0“ ` est importante dans une page web, car elle permet de définir la largeur de la fenêtre d'affichage initiale. On s'assure alors que la page sera affichée de manière cohérente sur des écrans de taille différente. Aussi, l'attribut `initial-scale=1.0` permet de définir le niveau de zoom initial pour la page web. Elle permet donc de s'assurer que la page s'affichera dans sa taille originale sans être agrandie ou réduite automatiquement par le navigateur. Ces deux paramètres sont particulièrement importants pour offrir une expérience utilisateur cohérente et agréable, sans avoir à faire défiler horizontalement ou à zoomer. Ceci permet donc une bonne responsivité du site.     
 Cette partie du code est également souvent complétée par la balise `title`. Celle-ci contient le titre de la page, celui inscrit sur l’onglet du site web, une fois le site ouvert.    
 
-#### CSS
+### CSS
 
 Le code de ce projet contient également un fichier CSS. Il est utilisé pour définir la présentation visuelle de la page web, plus communément appelé le « style » de la page. Il permet donc de préciser les différentes caractéristiques des éléments du HTML, comme les couleurs, les polices, les tailles et les dispositions.        
 Le langage de programmation CSS permet également la création de mises en page plus complexes grâce à des techniques telles que les types de positions, les ` z-index `, les `grid` et les `Flex-box`, qui permettent une bonne organisation du contenu.      
 
-##### Responsivity
+#### Responsivity
 
 Le document CSS de ce projet est séparé en deux parties distinctes : une pour les écrans de plus de 1000 pixels de largeur (ordinateurs), et la seconde pour les appareils dotés d’un plus petit écran (smartphones). Cette distinction est possible grâce à la fonctionnalité `@media screen and (min/max-width: 1000px)`, alors l’affichage sera différent sur ces deux types d’écrans différents. Cette fonctionnalité s’appelle le « responsive design ». L’organisation interne de ces sections est similaire. En effet, elles commencent toutes deux par des « class » générales, puis se précisent avec d’autres `class` complémentaires. L’ordre dépend de l’ordre chronologique de la visite du site web, en commençant par la page d’accueil et en terminant par la page contact.    
 
@@ -90,14 +89,14 @@ Avec les `Flex-box`, la création d'une mise en page responsive est grandement s
 
 ## Instructions pour tester le projet
 
-1.	Pour mettre en route le site internet, il nécessaire de se rendre sur [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet") en passant par chrome, puis y ajouter la particule `gitpod.io#` au début.   [^1] 
+1.	Pour mettre en route le site internet, il nécessaire de se rendre sur [ce lien](https://github.com/capucineboh/site-candide "lien pour accéder sur le dépôt du projet")[^1]make tm en passant par chrome, puis y ajouter la particule `gitpod.io#` au début.    
 2.	À la suite de cette manipulation, le projet s’ouvre dans GitPod, une plateforme de développement en ligne permettant de travailler sur les projets sans installer d'environnement de développement. Ceci permet la non-nécessité d’installer quelque application de développement.        
 3.	Une fois le projet ouvert dans GitPod, il faut le démarrer. Pour ce faire, il faut inscrire la commande `python -m http.server 8000` dans le terminal, puis sélectionner le bouton « open in browser » de la fenêtre ouverte à l’occasion de la commande effectuée.          
 4.	Pour finir, une page où il est possible de naviguer sur le site internet crée dans le cadre d’un Travail de Maturité s’est ouverte.         
 
 ## Présentation des outils sous-jacents au projet 
 
-###Technologies spécifiques  
+### Technologies spécifiques  
 
 Le logiciel Adobe XD a été utilisé pour l’élaboration des maquettes de ce projet. C’est un logiciel de prototypage d'interfaces de sites web et d’applications mobiles / de bureau permettant de créer des maquettes interactives pour tester l'expérience utilisateur au mieux.          
 Ce logiciel offre de nombreux outils pour faciliter le processus de conception comme : la possibilité de créer des grid, des layout et des modèles pour garder une certaine cohérence dans le design. Parmi les avantages d'Adobe XD, on peut citer sa fonctionnalité de partage de prototypes permettant de présenter le design à des collaborateurs pour obtenir des retours rapidement. Il offre aussi la possibilité de créer des prototypes interactifs qui peuvent être utilisés pour tester l'expérience utilisateur et recueillir des commentaires et critiques. Cela permet d'optimiser le design avant le développement du site et de s'assurer que l'expérience utilisateur est optimale.        
