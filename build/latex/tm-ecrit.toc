@@ -1,20 +1,67 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Intérêt du Projet}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Les difficultés à venir}{2}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Technologies Utilisées}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Les Maquettes}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}La programmation}{3}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Prototypage}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Recherches Artistiques}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}La structure du Site}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Les Maquettes}{6}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}n°1}{6}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}n°2}{7}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}n°3}{7}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Le Choix Final}{7}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Programmation}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Apprentissage}{9}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Difficultés}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Apprendre de ses erreurs}{10}{section.4.3}%
+\contentsline {section}{\numberline {1.1}Présentation du travail}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objectifs du projet}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}La visibilité au sein de l’école}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}La visibilité hors de l’école}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Informer des évènements à venir}{2}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Utilisateurs visés}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Structure du travail}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Documentation utilisateur}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Mise en Route}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Dépendances}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Principales fonctionnalités du site}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Vue d’ensemble}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Vue détaillée}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Vue raccourcie}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Fonctionnalité pratique}{6}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}Documentation développeur}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Mise en Route}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Installation}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Contributions}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Structure du code et rôle des différents fichiers}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Structure du code}{8}{subsection.3.4.1}%
+\contentsline {subsubsection}{HTML}{8}{subsubsection*.3}%
+\contentsline {paragraph}{Métadonnées}{8}{paragraph*.4}%
+\contentsline {subsubsection}{CSS}{9}{subsubsection*.5}%
+\contentsline {paragraph}{Responsivity}{9}{paragraph*.6}%
+\contentsline {section}{\numberline {3.5}Instructions pour tester le projet}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Présentation des outils sous\sphinxhyphen {}jacents au projet}{10}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Principes de conception / de programmation}{10}{subsection.3.6.1}%
+\contentsline {chapter}{\numberline {4}Regard Critique}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Pistes d’améliorations}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Éléments ne répondant pas aux objectifs initiaux fixés}{12}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Objectif non remplit}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pistes de solutions}{12}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Difficultés rencontrées}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Fonctionnalités supplémentaires}{13}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Travaux futurs}{17}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Déclaration personnelle}{19}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Travaux complémentaires}{20}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Recherches Artistiques}{20}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Maquettes}{21}{subsection.A.1.2}%
+\contentsline {subsubsection}{Première maquette}{21}{subsubsection*.7}%
+\contentsline {subsubsection}{Première maquette « d’exploration »}{21}{subsubsection*.8}%
+\contentsline {subsubsection}{Deuxième maquette « d’exploration »}{22}{subsubsection*.9}%
+\contentsline {subsubsection}{Choix final}{22}{subsubsection*.10}%
+\contentsline {chapter}{\numberline {B}Tutoriel Sphinx / MyST}{25}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Fonctionnement de la toolchain Sphinx}{25}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Les avantages de Sphinx par rapport à Word}{28}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Les désavantages de Sphinx par rapport à Word}{28}{subsection.B.1.2}%
+\contentsline {section}{\numberline {B.2}Les bases de la rédaction avec Sphinx}{28}{section.B.2}%
+\contentsline {subsection}{\numberline {B.2.1}Fichiers Markdown ou RestructuredText}{29}{subsection.B.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}Bien démarrer}{29}{subsection.B.2.2}%
+\contentsline {section}{\numberline {B.3}Insérer du code}{29}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Insertion simple}{29}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Plus de flexibilité}{30}{subsection.B.3.2}%
+\contentsline {subsection}{\numberline {B.3.3}Insérer du code depuis un fichier externe}{31}{subsection.B.3.3}%
+\contentsline {subsubsection}{Titre 2}{31}{subsubsection*.11}%
+\contentsline {paragraph}{Titre 3}{31}{paragraph*.12}%
+\contentsline {section}{\numberline {B.4}Insérer des images}{31}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}Insérer un tableau}{31}{subsection.B.4.1}%
+\contentsline {section}{\numberline {B.5}Fonctionnalités avancées}{31}{section.B.5}%
+\contentsline {subsection}{\numberline {B.5.1}Encadrés}{31}{subsection.B.5.1}%
+\contentsline {subsection}{\numberline {B.5.2}Direction \sphinxstyleliteralintitle {\sphinxupquote {raw}}}{33}{subsection.B.5.2}%
+\contentsline {section}{\numberline {B.6}Références croisées}{33}{section.B.6}%
+\contentsline {chapter}{\numberline {C}Indices and tables}{35}{appendix.C}%

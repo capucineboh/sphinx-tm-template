@@ -66,9 +66,9 @@
 \newcommand{\customizeinfos}{}
 
 
-\title{Création du site internet destiné au Comité Etudiant Humanitaire du Collège du Sud}
-\date{janv. 15, 2023}
-\release{Version intermédiaire}
+\title{Création du site internet destiné au Comité Étudiant Humanitaire du Collège du Sud}
+\date{avr. 02, 2023}
+\release{Version finale}
 \author{Capucine Böhning}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Collège du sud, Travail de maturité}
@@ -91,161 +91,967 @@
 
 \chapter{Introduction}
 \label{\detokenize{introduction:introduction}}\label{\detokenize{introduction::doc}}
+
+\section{Présentation du travail}
+\label{\detokenize{introduction:presentation-du-travail}}
 \sphinxAtStartPar
-En tant qu’étudiante en 3ème du Gymnase, j’ai eu l’opportunité de participer à mon premier projet de programmation de site internet pour l’association Candide, et ce dans le cadre de mon TM. Ce travail m’a permis de mettre en pratique mes connaissances et de développer de nouvelles compétences en matière de développement web et tout ce que cela implique.
+Une discipline ayant une place importante dans notre société actuelle est le développement web, car il présente de nombreux avantages pour développer une activité commerciale ou associative. En effet, avoir un site web n’est plus un atout, c’est un besoin pour les structures de toutes tailles. Il est vrai, qu’aujourd’hui, beaucoup d’outils existent pour créer un site internet en quelques clics, mais ceci est loin d’être suffisant. Car pour se faire une réelle bonne image en ligne, il faut que l’interface utilisateur soit parfaite et qu’aucun détail ne soit laissé au hasard. Pour cette raison, il est plus intéressant pour les entreprises de faire appel à des personnes qualifiées. Bien que cela représente un certain coût, le retour sur investissement se voit vite. Effectivement, la visibilité gagnée augmente rapidement l’audience et les clients potentiels. De plus, elle est aussi un gain de temps pour la diffusion d’informations ; tous ces facteurs pèsent dans la balance et rendent les services professionnels de programmations rentables.\\
+Le développement web est un sujet vaste qui peut être exploité de nombreuses manières différentes.\\
+Dans ce TM, nous allons aborder l’axe de la communication, par le biais de la création d’un site internet destiné au comité étudiant humanitaire du Collège du Sud. Il a effectivement été remarqué que Candide nécessite d’un moyen de communication facilement accessible et permettant à un plus grand nombre de personnes de suivre l’activité du groupe. Bien que l’idée de proposer une forme de commerce en ligne, ou de vouloir faire appel à des investisseurs potentiels ne touche absolument pas Candide ; un site web leur est nécessaire pour le contact avec les différents partenaires pour lesquels ils travaillent et récoltent des fonds.\\
+Faisant partie intégrante du Collège du Sud et n’ayant pas le statut d’association, eux ne peuvent pas faire appel à des professionnels du développement web. Car en effet, ne faisant aucun bénéfice, l’investissement dans la création d’un site internet ne serait que pertes. Leurs projets étant d’une grande importance aux yeux de la jeunesse actuelle, l’initiative de leur créer ce site dont ils ont besoin a été prise. C’est pourquoi, il a été décidé que ce projet se portera sur l’association en elle\sphinxhyphen{}même.
 
 
-\section{Motivation}
-\label{\detokenize{introduction:motivation}}
+\section{Objectifs du projet}
+\label{\detokenize{introduction:objectifs-du-projet}}
 \sphinxAtStartPar
-Je trouve ce projet motivant par la diversité des taches demandées et des connaissances requises pour mener à bien le développement d’un site internet. Le fait qu’il s’agisse de fabriquer quelque chose de A à Z le rend d’autant plus intéressant. Tout au long de ce travail, je pense évidemment acquérir de nombreuses notions de design et informatiques, mais également apprendre à gérer un projet en entier, ce qui ne semble pas être tâche facile ! De plus, ce site sera utile pour le comité lorsqu’il sera question se présenter au près d’autres associations pour un éventuelle collaboration. Étant membre de Candide, je suis encore plus motivée à produire un travail de qualité
+Les nombreux avantages de ce genre de plateforme permettent d’atteindre des objectifs importants pour le groupe.
 
 
-\section{Intérêt du Projet}
-\label{\detokenize{introduction:interet-du-projet}}
+\subsection{La visibilité au sein de l’école}
+\label{\detokenize{introduction:la-visibilite-au-sein-de-lecole}}
 \sphinxAtStartPar
-Comme préalablement stipulé, je fais partie de Candide. C’est pourquoi j’ai pu me rendre compte de certains besoins que le comité peut rencontrer lors de contact avec des associations. Notamment d’un seul endroit regroupant toutes les informations à savoir à propos de son activité, de ses actions passées, de ses objectifs et surtout d’un moyen de contact simple.
-Aujourd’hui, le comité Candide a comme seul moyen de communication son compte Instagram, malheureusement ce n’est pas suffisant pour regrouper toutes les informations. De plus, cette plateforme n’est pas professionnellement reconnue, ce qui dessert à l’association. Donc Candide ne dispose pas vraiment d’outils similaires et c’est pourquoi un site web simple d’utilisation et permettant de retrouver simplement les informations nécessaires serait très utile.
+Bien que Candide existe au sein du Collège de Sud depuis de nombreuses années, son activité reste encore trop peu connue. Il est vrai que beaucoup d’étudiants et même de professeurs continuent à ignorer les actions du comité. Ce site répond alors à ce manque de connaissances en permettant l’accès rapide à l’information. Aussi, son identité visuelle promeut une image jeune et dynamique du groupe, ce qui permet aux utilisateurs du site de rapidement se faire une idée sur le comité.
 
 
-\section{Les difficultés à venir}
-\label{\detokenize{introduction:les-difficultes-a-venir}}
+\subsection{La visibilité hors de l’école}
+\label{\detokenize{introduction:la-visibilite-hors-de-lecole}}
 \sphinxAtStartPar
-Les principales difficultés résideront dans la création en elle\sphinxhyphen{}même du site internet, ainsi que dans l’apprentissage des différents langages de programmation utilisés. Pour la création du design il me faudra également découvrir de nouveaux outils, ceci semble aussi être un savoir qui prendra un certain temps à assimiler. Dans le but de mieux surmonter ces quelques difficultés et les autres qui ne sont pas citées et qui sont inattendues, il sera essentiel de bien se renseigner avant de se lancer dans les différentes étapes de réalisation du projet.\\
-Plusieurs technologies différentes vont être nécessaires au bon développement de ce site. Premièrement, pour le design du site, l’utilisation de Adobe XD sera particulièrement nécessaire pour créer des maquettes qui permettront au Comité Candide de se projeter et d’apporter les modifications demandées le plus simplement possible. Ensuite, le site internet sera lui\sphinxhyphen{}même programmé en HTML et CSS, ce qui permettra d’avoir un code le plus organisé possible. Enfin, pour le CMS servant à la modification facile du contenu du site, des outils tels que contentful seront employés. Je suis convaincue que ce projet sera un réel succès et permettra à l’association Candide de disposer d’un outil performant pour communiquer efficacement avec les autres associations.
+Candide collabore très fréquemment avec d’autres associations. Celles\sphinxhyphen{}ci, extérieures aux Collège du Sud, ont besoin d’un moyen simple de connaître Candide. Jusqu’à présent, le groupe fonctionnait par le biais de contacts et de rencontres. Mais maintenant, le site permet d’atteindre un public beaucoup plus large et bien plus simplement. Les rapports inter\sphinxhyphen{}associations sont alors grandement facilité. De plus, ce site internet regroupe toutes les actions préalablement faites par le groupe, ceci permet aussi aux partenaires potentiels de se sentir plus vite en confiance pour collaborer.
 
 
-\chapter{Technologies Utilisées}
-\label{\detokenize{technologies-utilisees:technologies-utilisees}}\label{\detokenize{technologies-utilisees::doc}}
-
-\section{Les Maquettes}
-\label{\detokenize{technologies-utilisees:les-maquettes}}
+\subsection{Informer des évènements à venir}
+\label{\detokenize{introduction:informer-des-evenements-a-venir}}
 \sphinxAtStartPar
-Tout d’abord pour l’élaboration des maquettes, j’ai dû utiliser un logiciel qui m’était préalablement inconnu, Adobe XD. En effet, cet outil permet de créer des prototypes de site web avec previews. Il a joué un rôle important dès le début du projet, notamment lors de discussion avec le Comité. À plusieurs reprises, nous avons pu discuter des besoins de leurs besoins mais également de leurs envies et de leurs gouts. Il était aussi très important que le design du site corresponde au mieux à ce que l’association voulait, c’est pourquoi beaucoup de modifications ont été apportées et qu’il était nécessaire de commencé par la création de maquette par le biais de Adobe XD.
+Ce site est un outil de communication pour promouvoir et informer des évènements à venir. Motiver des étudiants à rejoindre le comité, prévenir des récentes actions et surtout des prochains événements sont alors mis sur le devant de la scène. Candide est un comité humanitaire, et qui privilégie donc les relations humaines. Un point d’orgue est alors marqué lorsqu’il s’agit d’intégrer de nouvelles personnes au groupe et de rencontrer des étudiants externes au comité lors d’événements. Le contact et les moments à partager sont alors mis en avant dans ce site afin de les favoriser.
 
 
-\section{La programmation}
-\label{\detokenize{technologies-utilisees:la-programmation}}
+\section{Utilisateurs visés}
+\label{\detokenize{introduction:utilisateurs-vises}}
 \sphinxAtStartPar
-En ce qui concerne les framework, j’ai utilisé du HTML et CSS. Ils semblaient être les langages de programmation les plus adéquat, mais aussi les plus courants lorsqu’il s’agit de coder un site web statique.\\
-Le HTML est un langage de balisage, qui sert donc à définir les différents contenus des pages. Ce langage est privilégié pour indiquer de quoi est constituée chaque page et ce qu’elles doivent afficher. Le HTML va permettre d’indiquer qu’un contenu est un texte qui n’est qu’un paragraphe, un texte qui est un titre de niveau 1 dans notre page, une liste, un lien, une images, ….
-Le CSS, quant à lui, sert à définir le style du contenu. Il est un langage très pratique car il regroupe toutes les informations des contenus du HTML. Il permet également d’apporter des modification de manière simple et rapide, car les changements seront directement mise\sphinxhyphen{}à\sphinxhyphen{}jour sur le HTML relié. Grâce au CSS, il est aussi possible d’ajouter des effets plus spécifique, comme des effets de transparence, des animations lorsque le curseur de la souris passe sur un bouton ou simplement des couleurs et format de textes, d’images, etc….
-
-
-\chapter{Prototypage}
-\label{\detokenize{chapitre-02:prototypage}}\label{\detokenize{chapitre-02::doc}}
-
-\section{Recherches Artistiques}
-\label{\detokenize{chapitre-02:recherches-artistiques}}
+Comme mentionné dans le chapitre précédent, deux types d’utilisateurs sont visés.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
 \sphinxAtStartPar
-Tout d’abord, j’ai dû entrer en communication avec Candide afin de comprendre leurs attentes et leur audience cible. J’ai pu ainsi savoir quelles informations devaient être mises en avant sur le site et l’image que Candide aimerait donner de son association. J’ai alors créé un moodboard à partir de ce qui avait été dit et en mettant en avant les valeurs qui semblent être importantes pour le comité.\\
-Dans ce design plusieurs notions sont mises en avant. D’abord l’aspect protection de la nature, par le vert qui domine et des images florales ou abstraites qui viennet ajouter un peu de douceur. Tout cela rappelle l’importance de la protection de l’environnement pour Candide.
-Ensuite, la police utilisée est dans le style des années 70, style qui se veut vivant, respirant et changeant avec l’environnement. Ces valeurs emblent être effectivement liées à celles de l’association.\\
-De plus, les couleurs de ce site internet seront très importantes pour mettre en avant la bien\sphinxhyphen{}être et la bonne humeur que Candide veut apporter au Collège du Sud, ainsi que la bienveillance et l’inclusivité de son comité. Aussi l’idée de cadrillage pourrait apporter un certain rythme et dynamiser le site.
+Les étudiants du Collège du Sud. Candide faisant partie intégrante de la vie étudiante de l’établissement, il est important que l’ensemble des élèves soient mis au courant de ses actions. Il est alors important pour le comité de pouvoir faire connaître les activités passées et surtout futures aux potentiels participants.
+
+\item {} 
+\sphinxAtStartPar
+Le comité base beaucoup de ses actions sur des collaborations. Ainsi, les associations humanitaires externes au CSUD sont évidemment visées par ce site internet. Il permet de déployer le champ d’action et de découvrir de nombreuses autres manière d’agir pour les causes que Candide souhaite défendre. Par ce biais, le contact est facilité et offre un aperçu direct sur les objectifs et ambitions du groupe étudiant dans le cadre de partenariat et même en règle générale.
+
+\end{enumerate}
+
+
+\section{Structure du travail}
+\label{\detokenize{introduction:structure-du-travail}}
+\sphinxAtStartPar
+Ce travail est séparé en six parties distinctes :
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Section de documentation présentant comment mettre en route le projet d’un point de vue utilisateur. Ce premier axe présente aussi les différentes fonctionnalités du travail et ses apports.
+
+\item {} 
+\sphinxAtStartPar
+Documentation ”développeur” permet d’expliquer les différentes étapes de création du projet et sa structure générale. Aussi, ce volet présente les technologies utilisées tout au long de la création de ce site web.
+
+\item {} 
+\sphinxAtStartPar
+Regard critique sur le projet réalisé et présente un retour sur les objectifs non\sphinxhyphen{}atteints. En effet, elle présente les problèmes restant et les modifications qu’il serait préférable d’apporter avant la mise en ligne du site.
+
+\item {} 
+\sphinxAtStartPar
+Conclusion par l’indication des objectifs initiaux remplis et un résumé des points majeurs de ce travail.
+
+\item {} 
+\sphinxAtStartPar
+Sections finales offrant une ouverture sur les potentiels travaux futurs qui n’ont pu être implémentés pour diverses raisons. Ce dernier volet est suivi des annexes, notamment composé des travaux complémentaires au projet.
+
+\end{enumerate}
+
+\sphinxAtStartPar
+
+
+
+\chapter{Documentation utilisateur}
+\label{\detokenize{chapitre-01:documentation-utilisateur}}\label{\detokenize{chapitre-01::doc}}
+
+\section{Mise en Route}
+\label{\detokenize{chapitre-01:mise-en-route}}
+\sphinxAtStartPar
+Ce projet n’est pas encore disponible en ligne sur un serveur permanent, il est alors encore obligatoire de passer par le site du GitPod pour y accéder, comme expliqué dans la documentation développeur. Cependant, il est prévu que le site soit mis en ligne lors de la présentation orale du travail de maturité en mai 2023.
+
+
+\section{Dépendances}
+\label{\detokenize{chapitre-01:dependances}}
+\sphinxAtStartPar
+Ce projet ne contient aucune dépendance externe.
+
+
+\section{Principales fonctionnalités du site}
+\label{\detokenize{chapitre-01:principales-fonctionnalites-du-site}}
+\sphinxAtStartPar
+Ce projet comporte de nombreuses fonctionnalités :
+
+
+\subsection{Vue d’ensemble}
+\label{\detokenize{chapitre-01:vue-densemble}}
+\sphinxAtStartPar
+Une page d’accueil présente Candide comme le comité étudiant humanitaire du Collège du Sud. Elle permet également un aperçu rapide sur l’actualité future et récente du groupe, ainsi que les informations importantes pour y participer. Cette page invite aussi les étudiants intéressés à rejoindre le comité.
+
+
+\subsection{Vue détaillée}
+\label{\detokenize{chapitre-01:vue-detaillee}}\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+La page nommée « Présentation » définit plus précisément le rôle de Candide dans la vie étudiante du Collège du Sud. Cette page expose aussi les différents projets menés par le groupe sur les dernières années et les noms des associations externes avec qui il a collaboré.
+
+\item {} 
+\sphinxAtStartPar
+La section « actions » permet une description détaillée des derniers projets menés par le comité. Cette page a pour objectif de préciser quelles sont les valeurs de Candide et son mode de fonctionnement lors d’organisation d’évènements ou de collaborations.
+
+\item {} 
+\sphinxAtStartPar
+Chaque élément de ce site est accompagné d’une image dans le but d’illustrer le projet. Il est important pour Candide de montrer que son activité est concrète et se base sur l’action, alors la présence de photos se justifie évidemment.
+
+\end{enumerate}
+
+
+\subsection{Vue raccourcie}
+\label{\detokenize{chapitre-01:vue-raccourcie}}
+\sphinxAtStartPar
+Aussi, le site web comprend un menu de navigation simple permettant aux visiteurs de naviguer entre les différentes sections. Ce menu permet aussi une structure claire du contenu du site.
+
+
+\subsection{Fonctionnalité pratique}
+\label{\detokenize{chapitre-01:fonctionnalite-pratique}}
+\sphinxAtStartPar
+Le design du site est responsive. Ce qui signifie qu’il a été pensé pour être utilisable sur tous type d’appareils. Ainsi, il s’adapte automatiquement à la taille de l’écran, permettant une expérience optimale sur différentes tailles d’écran.
+
+
+\chapter{Documentation développeur}
+\label{\detokenize{chapitre-02:documentation-developpeur}}\label{\detokenize{chapitre-02::doc}}
+
+\section{Mise en Route}
+\label{\detokenize{chapitre-02:mise-en-route}}
+\sphinxAtStartPar
+Pour mettre en route le site internet, il nécessaire de se rendre sur le lien suivant en passant par chrome : gitpod.io\#/https://github.com/capucineboh/site\sphinxhyphen{}candide .\\
+À la suite de cette manipulation, le projet s’ouvre dans GitPod, une plateforme de développement en ligne permettant de travailler sur les projets sans installer d’environnement de développement. Ceci permet la non\sphinxhyphen{}nécessité d’installer quelque application de développement.\\
+Une fois le projet ouvert dans GitPod, il faut le démarrer. Pour ce faire, il faut inscrire la commande ”python \sphinxhyphen{}m http.server 8000” dans le terminal, puis sélectionner le bouton « open in browser » de la fenêtre ouverte à l’occasion de la commande effectuée.\\
+Pour finir, une page où il est possible de naviguer sur le site s’est ouverte.
+
+
+\section{Installation}
+\label{\detokenize{chapitre-02:installation}}
+\sphinxAtStartPar
+Source Documentation GitHub
+
+\sphinxAtStartPar
+S’il est souhaité d’installer le projet localement, il est nécessaire de procéder de la manière suivante :
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Il faut ouvrir un terminal sur l’ordinateur où l’installation locale est souhaitée.
+
+\item {} 
+\sphinxAtStartPar
+Par le biais de la commande ”git clone https://github.com/capucineboh/site\sphinxhyphen{}candide.git”, il est rendu possible de cloner le dépôt Git et cela créera une copie locale du dépôt sur l’ordinateur.
+
+\item {} 
+\sphinxAtStartPar
+Il sera nécessaire de naviguer jusqu’au répertoire du projet à l’aide de la commande ”cd site\sphinxhyphen{}candide”.
+
+\item {} 
+\sphinxAtStartPar
+Il est important de vérifier si npm est installé sur l’ordinateur en inscrivant ”npm \sphinxhyphen{}v” dans terminal local. Ainsi, le serveur de développement peut être démarré par la commande ”npm start” et ouvrir automatiquement le site chargé dans votre navigateur web. Pour arrêter le serveur, il suffit d’entrer Ctrl+C dans le terminal.
+
+\end{enumerate}
+
+\sphinxAtStartPar
+De cette manière, le site peut être ouvert à n’importe quel moment, directement depuis l’ordinateur en question.
+
+
+\section{Contributions}
+\label{\detokenize{chapitre-02:contributions}}
+\sphinxAtStartPar
+Source https://github.com/git\sphinxhyphen{}guides/git\sphinxhyphen{}clone
+Il est possible pour tous développeur d’apporter des modifications à ce projet, elles sont d’ailleurs les bienvenues. Ce site demande d’ailleurs à être mis\sphinxhyphen{}à\sphinxhyphen{}jour de manière régulière, afin qu’il reste actif et utile pour le comité. Plusieurs manipulations sont nécessaires à la contribution au site web de Candide.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Il faut forker le dépôt Git disponible sous ce lien : https://github.com/capucineboh/site\sphinxhyphen{}candide.git. « Forker » signifie créer une copie indépendante sur son propre compte GitHub. Cette copie vous permet de travailler sur le code sans affecter l’original, ce qui est voulu ici.
+
+\item {} 
+\sphinxAtStartPar
+Maintenant le fork effectué il est nécessaire de clôner le dépôt forké sur GitPod. Ceci est faisable grâce à la commande ”git clone https://github.com/capucineboh/site\sphinxhyphen{}candide.git”, l’effet de celle\sphinxhyphen{}ci est de pouvoir récupérer l’entièreté des documents et fichiers d’un dépôt pour se l’approprier directement. Ainsi, il faut créer une branche pour la nouvelle contribution en inscrivant la commande suivante dans le terminal : « git checkout \sphinxhyphen{}b {[}nom\sphinxhyphen{}de\sphinxhyphen{}la\sphinxhyphen{}nouvelle\sphinxhyphen{}fonctionnalité{]} ». Cette nouvelle branche créée, il est rendu possible d’apporter les modifications souhaitées sans altéré le projet initial.
+
+\item {} 
+\sphinxAtStartPar
+Une fois tous les changements effectués, il faut enregistrer ces éditions grâce aux commandes « git add . » suivie de « git commit \sphinxhyphen{}m {[}nom du commit{]} », puis push les nouvelles fonctionnalités avec « git push origin {[}nom\sphinxhyphen{}de\sphinxhyphen{}la\sphinxhyphen{}nouvelle\sphinxhyphen{}fonctionnalité{]} ».
+
+\item {} 
+\sphinxAtStartPar
+Dans le but que ces modifications soient ajoutées au projet initial, une dernière manipulation est nécessaire. Celle\sphinxhyphen{}ci est d’effectuer une pull request, elle doit être accompagnée d’une description détailler de la contribution. Pour ce faire, il est nécessaire de cliquer sur le bouton « Compare \& pull resquest » disponible à côté de la nouvelle branche créée. De cette manière l’auteur majeur du site Web de Candide, peut choisir d’accepter ou de rejeter la demande et, au cas où elle serait acceptée, le nom de contributeur apparaîtra dans la liste des auteurs du projet.
+
+\end{enumerate}
+
+
+\section{Structure du code et rôle des différents fichiers}
+\label{\detokenize{chapitre-02:structure-du-code-et-role-des-differents-fichiers}}
+
+\subsection{Structure du code}
+\label{\detokenize{chapitre-02:structure-du-code}}
+
+\subsubsection{HTML}
+\label{\detokenize{chapitre-02:html}}
+\sphinxAtStartPar
+Source https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta
+Le code du site web de Candide est structuré conformément aux règles d’usage. Il est composé de quatre fichiers HTML correspondant aux quatre pages du site. Ceux\sphinxhyphen{}ci forment le squelette du site internet, car le langage de programmation HTML est un langage de balisage, ce qui signifie qu’il permet d’organiser les éléments d’une page par leur type. Ces quatre fichiers déterminent la façon dont les différents éléments de la page, tels que les titres, les paragraphes, les images, les liens, les boutons et les formulaires, sont organisés et disposés sur celle\sphinxhyphen{}ci. C’est à l’intérieur de ces différents types de balises que se trouvent également les textes et les images qui forment le contenu du site.
+
+
+\paragraph{Métadonnées}
+\label{\detokenize{chapitre-02:metadonnees}}
+\sphinxAtStartPar
+Les métadonnées sont des informations qui ne sont pas affichées directement sur le site web, mais qui sont stockées dans le code HTML de la page et sont utilisées par les moteurs de recherches pour comprendre le contenu de la page et pour effectuer des opérations de référencement. En effet, elles aident les navigateurs à savoir à quelle position le site web doit figurer lorsque des recherches sont effectuées.
+
+\sphinxAtStartPar
+Les métadonnées sont communément définies dans l’entête de code HTML contenue dans les balises .
+La balise ”charset” est l’une des plus commune. Il s’agit de celle définissant les jeux des caractères utilisés dans le site. Le charset de ce site est le UTF\sphinxhyphen{}8, un format d’encodage de caractères permettant de représenter tous les caractères de toutes les langues du monde. Cela permet également au navigateur de savoir comment interpréter les caractères spéciaux et les accents utilisés, pour les afficher correctement aux utilisateurs.
+”Description“ est une autre balise essentielle à un site internet, puisqu’elle contient une courte description du contenu du site internet. Celle\sphinxhyphen{}ci s’affichera d’ailleurs directement en dessous du titre du site lors d’une recherche internet.\\
+La métadonnée ” content=’width=1200px , initial\sphinxhyphen{}scale=1.0’ ” est importante dans une page web, car elle permet de définir la largeur de la fenêtre d’affichage initiale. On s’assure alors que la page sera affichée de manière cohérente sur des écrans de taille différente. Aussi, l’attribut ”initial\sphinxhyphen{}scale=1.0” permet de définir le niveau de zoom initial pour la page web. Elle permet donc de s’assurer que la page s’affichera dans sa taille originale sans être agrandie ou réduite automatiquement par le navigateur. Ces deux paramètres sont particulièrement importants pour offrir une expérience utilisateur cohérente et agréable, sans avoir à faire défiler horizontalement ou à zoomer. Ceci permet donc une bonne responsivité du site.\\
+Cette partie du code est également souvent complétée par la balise . Celle\sphinxhyphen{}ci contient le titre de la page, celui inscrit sur l’onglet du site web, une fois le site ouvert.
+
+
+\subsubsection{CSS}
+\label{\detokenize{chapitre-02:css}}
+\sphinxAtStartPar
+Le code de ce projet contient également un fichier CSS. Il est utilisé pour définir la présentation visuelle de la page web, plus communément appelé le « style » de la page. Il permet donc de préciser les différentes caractéristiques des éléments du HTML, comme les couleurs, les polices, les tailles et les dispositions.\\
+Le langage de programmation CSS permet également la création de mises en page plus complexes grâce à des techniques telles que les types de positions, les « z\sphinxhyphen{}index », les « grid » et les « Flex\sphinxhyphen{}box », qui permettent une bonne organisation du contenu.
+
+
+\paragraph{Responsivity}
+\label{\detokenize{chapitre-02:responsivity}}
+\sphinxAtStartPar
+Le document CSS de ce projet est séparé en deux parties distinctes : une pour les écrans de plus de 1000 pixels de largeur (ordinateurs), et la seconde pour les appareils dotés d’un plus petit écran (smartphones). Cette distinction est possible grâce à la fonctionnalité « @media screen and (min/max\sphinxhyphen{}width: 1000px) », alors l’affichage sera différent sur ces deux types d’écrans différents. Cette fonctionnalité s’appelle le « responsive design ». L’organisation interne de ces sections est similaire. En effet, elles commencent toutes deux par des « class » générales, puis se précisent avec d’autres « class » complémentaires. L’ordre dépend de l’ordre chronologique de la visite du site web, en commençant par la page d’accueil et en terminant par la page contact.
+
+\sphinxAtStartPar
+Le Flex\sphinxhyphen{}box susnommé s’est également montré très utile pour rendre le site responsive. La technologie CSS Flex\sphinxhyphen{}box permet de créer des mises\sphinxhyphen{}en\sphinxhyphen{}page flexibles et adaptables. Elle aide les développeurs à créer des mises en page facilement modifiables sans avoir à utiliser des outils plus complexe ou à devoirs utiliser des frameworks externes.\\
+L’outil Flex\sphinxhyphen{}box offre une grande flexibilité dans l’organisation des différents éléments d’une page en permettant de contrôler l’alignement, la taille et l’ordre des éléments à l’intérieur d’un conteneur (ici banner). Il est également possible de facilement spécifier comment les éléments à l’intérieur d’un conteneur doivent être positionnés et comment ils doivent s’adapter à différentes tailles d’écran. Par exemple, il est possible de spécifier que les éléments doivent être alignés verticalement et horizontalement au centre, ou que les éléments doivent s’adapter à la largeur disponible, …\\
+L’un des avantages majeurs des Flex\sphinxhyphen{}box est sa capacité à simplifier la création de designs responsives. Avant l’existence d’une telle technologie, les développeurs devaient utiliser des techniques moins directes comme les tableaux pour créer des mises en page responsives. Cependant, ces méthodes étaient souvent maladroites, difficiles à mettre en œuvre et engendraient d’un grand nombre de problèmes.\\
+Avec les Flex\sphinxhyphen{}box, la création d’une mise en page responsive est grandement simplifiée. Les éléments peuvent être disposés en rangées ou en colonnes et le conteneur flex s’adapte automatiquement à la largeur de l’écran.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+En utilisant la propriété « flex\sphinxhyphen{}direction », il est possible de spécifier comment les éléments doivent se positionner en fonction de l’espace disponible.
+
+\item {} 
+\sphinxAtStartPar
+La propriété « align\sphinxhyphen{}content » spécifie comment les éléments doivent se comporter lorsqu’ils sont répartis sur plusieurs lignes et permet d’organiser l’alignement des éléments sur l’axe vertical.
+
+\item {} 
+\sphinxAtStartPar
+L’élément “grid“ en parallèle à Flex\sphinxhyphen{}box est également très utile.
+
+\end{enumerate}
+
+
+\section{Instructions pour tester le projet}
+\label{\detokenize{chapitre-02:instructions-pour-tester-le-projet}}
+\sphinxAtStartPar
+Pour mettre en route le site internet, il nécessaire de se rendre sur le lien suivant en passant par chrome: gitpod.io\#/https://github.com/capucineboh/site\sphinxhyphen{}candide .\\
+À la suite de cette manipulation, le projet s’ouvre dans GitPod, une plateforme de développement en ligne permettant de travailler sur les projets sans installer d’environnement de développement. Ceci permet la non\sphinxhyphen{}nécessité d’installer quelque application de développement.\\
+Une fois le projet ouvert dans GitPod, il faut le démarrer. Pour ce faire, il faut inscrire la commande ”python \sphinxhyphen{}m http.server 8000” dans le terminal, puis sélectionner le bouton « open in browser » de la fenêtre ouverte à l’occasion de la commande effectuée.\\
+Pour finir, une page où il est possible de naviguer sur le site internet crée dans le cadre d’un Travail de Maturité s’est ouverte.
+
+
+\section{Présentation des outils sous\sphinxhyphen{}jacents au projet}
+\label{\detokenize{chapitre-02:presentation-des-outils-sous-jacents-au-projet}}
+\sphinxAtStartPar
+\#\#\#Technologies spécifiques
+
+\sphinxAtStartPar
+Le logiciel Adobe XD a été utilisé pour l’élaboration des maquettes de ce projet. C’est un logiciel de prototypage d’interfaces de sites web et d’applications mobiles / de bureau permettant de créer des maquettes interactives pour tester l’expérience utilisateur au mieux.\\
+Ce logiciel offre de nombreux outils pour faciliter le processus de conception comme : la possibilité de créer des grid, des layout et des modèles pour garder une certaine cohérence dans le design. Parmi les avantages d’Adobe XD, on peut citer sa fonctionnalité de partage de prototypes permettant de présenter le design à des collaborateurs pour obtenir des retours rapidement. Il offre aussi la possibilité de créer des prototypes interactifs qui peuvent être utilisés pour tester l’expérience utilisateur et recueillir des commentaires et critiques. Cela permet d’optimiser le design avant le développement du site et de s’assurer que l’expérience utilisateur est optimale.\\
+Dans le cadre de la création du site web du comité étudiant humanitaire du Collège du Sud, Adobe XD est un outil très utile dans la conception et le prototypage de l’interface, dans le but de s’assurer que le design réponde aux besoins de l’utilisateur et de Candide avant de commencer le développement du site. En effet, cette fonctionnalité est un majeur de ce logiciel, puisque les longues discussions au sujet de l’interface sont souvent genèse de nombreuses modifications.\\
+De plus, la première prise en main de ce logiciel, bien que nécessitant l’aide de plusieurs tutoriels et de la documentation en ligne d’Adobe XD, reste assez intuitive. Plusieurs raccourcis sont d’ailleurs similaires à d’autres logiciels de la suite Adobe, notamment à In Design. Il est alors très agréable de travailler avec ce logiciel et il est facile d’obtenir les bases très rapidement.
+
+
+\subsection{Principes de conception / de programmation}
+\label{\detokenize{chapitre-02:principes-de-conception-de-programmation}}
+\sphinxAtStartPar
+Plusieurs techniques et bonnes pratiques sont appliquées dans la création du site web de Candide, afin d’améliorer sa qualité, son efficacité et sa maintenabilité.\\
+Tout d’abord, ce site est accessible à tous. Le design est pensé pour rendre la navigation intuitive et naturelle. De plus, chaque image contient un texte de remplacement, qui rend leur présence possible pour les personnes malvoyantes. Aussi, les couleurs sont plutôt contrastées, ce qui permet une meilleure analyse des différents éléments de la page.\\
+Ensuite, le design du site web est responsive. La mise\sphinxhyphen{}en\sphinxhyphen{}page s’adapte donc à tous type d’écrans. Il est important de concevoir un design utilisable sur différents supports. À l’aide de techniques telles que les media queries et les Flex\sphinxhyphen{}box le site correspond à toutes les tailles d’appareils.\\
+Aussi, le CSS pouvant être très répétitif, il est défini par groupes. En effet, les classes de certains éléments de mêmes types ne se différencient que par quelques caractéristiques, il est alors intéressant de créer une classe générale et que les précisions stylistiques soient apportées dans d’autres classes. Ce biais permet d’éviter les nombreuses répétitions qui peuvent souvent être trouvées dans un fichier CSS lorsque les bonnes pratiques de programmations ne sont pas appliquées.
+
+
+\chapter{Regard Critique}
+\label{\detokenize{chapitre-03:regard-critique}}\label{\detokenize{chapitre-03::doc}}
+
+\section{Pistes d’améliorations}
+\label{\detokenize{chapitre-03:pistes-dameliorations}}
+\sphinxAtStartPar
+La création du site Web du Comité étudiant humanitaire du Collège du Sud est un projet mené dans le cadre d’un Travail de Maturité, ainsi son objectif est avant tout l’apprentissage. C’est pourquoi chaque étape prend un temps non\sphinxhyphen{}négligeable et que plusieurs points demandent encore à être corrigés. Il est d’ailleurs prévu que les points d’améliorations identifiés seront résolus pour la version orale.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Le premier est la nav\sphinxhyphen{}bar. Certes elle semble tout à fait correcte lorsqu’on l’utilise sur un écran de bureau, mais dès que la surface de l’écran se réduit, elle n’est plus facilement utilisable. En effet, les boutons servant à accéder aux différentes pages du site Web deviennent trop petits et les inscriptions sont illisibles. Il serait alors nécessaire d’apporter cette modification. Elle rendrait le site bien plus accessible et permettrait une large amélioration de l’expérience utilisateur mobile.
+
+\item {} 
+\sphinxAtStartPar
+Les media queries du CSS sont uniquement pensées pour les écrans de bureaux et les smartphone. Cependant, l’utilisation du site internet sur des tablettes de doit par être négligée. Il serait donc intéressant d’ajouter une troisième media query, celle\sphinxhyphen{}ci se trouvant entre les deux déjà existante. De plus, sur ce type de taille d’écran, l’image de fond de chaque entête ne se met pas bien en place. Un cadre blanc se forme autour d’elle. Il faudrait alors trouver une solution pour que cette image se mette correctement en place.  Ainsi, le site Web de Candide serait plus agréable à visiter sur des appareils de ce format.
+
+\item {} 
+\sphinxAtStartPar
+Toujours au niveau de la responsivité du design, il faudrait probablement utiliser la caractéristique ”float” pour les ”chapter” du site. Car des éléments ont effectivement tendance à se coincer en dessous des ”chapter” rendant l’affichage désordonné et la lecture des différents éléments compliquée.
+
+\item {} 
+\sphinxAtStartPar
+Finalement, le site Web du comité étudiant humanitaire du Collège du Sud, ayant été programmé sur Google chrome, ne s’adapte pas correctement aux autres navigateurs de recherches. Le ”progressive enhancement” aurait pu être une approche utilisée dans le but de permettre à tous les utilisateurs, indépendamment de leur navigateur ou de leur appareil, de profiter d’une bonne expérience lors de la consultation du site Web.
+
+\end{enumerate}
+
+
+\section{Éléments ne répondant pas aux objectifs initiaux fixés}
+\label{\detokenize{chapitre-03:elements-ne-repondant-pas-aux-objectifs-initiaux-fixes}}
+
+\subsection{Objectif non remplit}
+\label{\detokenize{chapitre-03:objectif-non-remplit}}
+\sphinxAtStartPar
+Les membres de Candide ne sont pas spécialisés en informatique. C’est pourquoi le moyen de changement du contenu du site doit être simple. Ainsi, un des objectifs fixés au début de ce Travail de Maturité est de créer une manière de changer les éléments du site simplement pour n’importe qui. Cependant, cette tâche, n’ayant pas été considérée comme étant une priorité immédiate, n’a pas été complétée au profit d’autres éléments.
+
+
+\subsection{Pistes de solutions}
+\label{\detokenize{chapitre-03:pistes-de-solutions}}
+\sphinxAtStartPar
+Afin de créer ce moyen simple de modification pour les membres du comité, il est possible de passer par le biais d’un CMS en ligne. Un CMS est un système de gestion de contenu en ligne qui permet à un utilisateur de gérer les publications de contenu sur un site Web, sans avoir à connaître de langages de programmation. Il s’agit alors exactement de ce dont les membres de l’association ont besoin pour tenir ce site à jour. Ces services sont disponibles en open source. Cependant, l’adaptation d’un tel code n’a pas pu être effectuée dans le cadre de ce travail.
+
+
+\section{Difficultés rencontrées}
+\label{\detokenize{chapitre-03:difficultes-rencontrees}}
+\sphinxAtStartPar
+Les difficultés majeures de l’élaboration de ce projet résident dans l’apprentissage du logiciel Adobe XD, de GitHub et GitHub, ainsi que des langages de programmation ainsi que dans la correction de bugs.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Dans le but de créer les maquettes du site, il faut s’initier à Adobe XD, un logiciel de prototypage d’interfaces pour les sites web, les applications mobiles et les applications de bureau. Les maquettes prennent entre 3 h et 5 h à être faites, sans compter les nombreuses modifications apportées au cours de multiples discussions avec Candide.
+
+\item {} 
+\sphinxAtStartPar
+Une fois la maquette finale obtenue, de nouvelles difficultés arrivent, mais celles\sphinxhyphen{}ci résident dans la programmation en elle\sphinxhyphen{}même. En effet, le développement web étant une discipline qui n’avait pas été abordée avant ce Travail de Maturité, l’apprentissage s’est fait pendant l’été et directement lors de l’implémentation du site. C’est pourquoi, de nombreux problèmes tels que des difficultés à mettre en avant certains éléments, à télécharger des polices, à utiliser les flex box, à placer correctement les éléments, à rendre le site responsive et tant d’autres voient le jour tout au long de sa programmation.
+
+\item {} 
+\sphinxAtStartPar
+Un problème majeur revenant à de multiples reprises est lié au CSS et au manque d’expérience en utilisation de Git. Effectivement, à chaque nouvelle session de travail, il est nécessaire de créer un nouveau fichier CSS et de le lier à nouveau aux différentes pages HTML, car les modifications apportées ne s’affichent pas. Ceci représente une contrainte importante, bien qu’une fois connue, elle soit simple à résoudre.
+Il n’a pas été identifié si ce problème venait du manque de connaissances pratiques ou de GitPod en lui\sphinxhyphen{}même, il n’a alors jamais pu être résolu de manière définitive.
+
+\end{enumerate}
+
+\sphinxAtStartPar
+Beaucoup de temps a été investi dans l’apprentissage et dans la résolution de bugs, ce premier projet de développement web a alors été très enrichissant.
+
+
+\section{Fonctionnalités supplémentaires}
+\label{\detokenize{chapitre-03:fonctionnalites-supplementaires}}
+\sphinxAtStartPar
+L’activité du comité étudiant humanitaire du Collège du Sud réside autour de la collecte de dons pour des associations externes. Ainsi, il serait bon de développer une fonctionnalité permettant de faire des dons directement à partir du site. Comme un formulaire à remplir afin de donner cinq, dix, ou même cent francs à la collecte en cours.\\
+Cet ajout rendrait les dons beaucoup plus simples et rapides, il n’y aurait plus besoin de se déplacer, de se souvenir de prendre de l’argent et tout se ferait en quelques clics. Si les dons se font plus simple, force est de constater qu’ils se font aussi plus nombreux. Il est effectivement souvent observé que la contrainte ”cash” d’une collecte peut dissuader certaines personnes. De plus, ce biais permettrait d’atteindre une audience plus large et potentiellement extérieure au Collège du Sud.\\
+Aussi, dans l’air digitale dans laquelle nous vivons, il ne faut pas négliger le fait que de plus en plus de collecte se feront uniquement en ligne. Cette fonctionnalité moderniserait alors aussi l’organisation du comité et son image en soi.
+
+
+\chapter{Conclusion}
+\label{\detokenize{chapitre-04:conclusion}}\label{\detokenize{chapitre-04::doc}}
+\sphinxAtStartPar
+Les points majeurs de ce Travail de Maturité sont la création du design et la programmation du site Web en soi.
+Le design du site répond aux besoins du comité étudiant humanitaire du Collège du Sud. Il permet de présenter le groupe, son activité et offre un moyen simple de le contacter. Ces objectifs ont été remplis par le biais des différentes pages du site. De plus, un objectif majeur était de rendre un projet représentatif de Candide et les couleurs, les images et les formes du site sont pensées pour mettre en avant les valeurs du comité et donner une image fidèle aux membres qui le forment.\\
+L’implémentation est également une partie majeure de la création de ce site Web, puisqu’il s’agit de transformer la maquette en code. Cette partie représente le plus gros défi de ce projet. En effet, la programmation a pris un temps conséquent, car cette section inclut également l’apprentissage des différents langages de programmation et de divers technologies complémentaires.
+
+
+\chapter{Travaux futurs}
+\label{\detokenize{chapitre-05:travaux-futurs}}\label{\detokenize{chapitre-05::doc}}
+\sphinxAtStartPar
+Certains éléments n’ont pas pu être intégrés au projet par manque de temps, c’est pourquoi il serait intéressant de les ajouter dans un futur proche :
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Les recherches légales liées au développement web n’ayant pas été faites, des éléments sont manquant. Il est effectivement obligatoire que les sites web comportent, en bas de chaque page, un bandeau où résident les mentions légales. Il est important que ces informations résident sur un site internet, car elles permettent aux utilisateurs de savoir s’il s’agit d’un site toujours actif ou non et d’y faire figurer des informations telles que les contacts, les adresses, les dates de mise\sphinxhyphen{}à\sphinxhyphen{}jour récentes, les noms des développeurs et contributeurs, …
+
+\item {} 
+\sphinxAtStartPar
+De plus, afin d’améliorer l’expérience utilisateur, il serait intéressant de créer des liens cliquables pour directement accéder au compte Instagram de Candide ou envoyer un mail. Ces fonctionnalités permettraient de faciliter le contact et d’inciter les étudiants à rejoindre le groupe plus simplement.
+
+\end{enumerate}
+
+\appendix
+
+
+
+\chapter{Déclaration personnelle}
+\label{\detokenize{chapitre-06:declaration-personnelle}}\label{\detokenize{chapitre-06::doc}}
+{
+\setstretch{1.5}
+\large
+\begin{tabbing}
+\textbf{Nom:} ~~~~~ \=  \= \studentlastname \\
+\textbf{Prénom:}~~~ \>  \> \studentfirstname \\
+\textbf{Adresse:}~~ \>  \> \studentaddress
+\end{tabbing} 
+}
+
+\begin{normalsize}
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Je certifie que le travail
+
+{\large \textbf{\tmtitle} }
+
+\sphinxAtStartPar
+a été réalisé par moi conformément au Guide de travail des collèges et aux
+Lignes directrices de la DICS concernant la réalisation du Travail de
+maturité.
+
+\item {} 
+\sphinxAtStartPar
+Je prends connaissance que mon travail sera soumis à une vérification de la
+mention correcte et complète de ses sources, au moyen d’un logiciel de
+détection de plagiat. Pour assurer ma protection, ce logiciel sera également
+utilisé pour comparer mon travail avec des travaux écrits remis
+ultérieurement, afin d’éviter des copies et de protéger mon droit d’auteur.
+En cas de soupçon d’atteintes à mon droit d’auteur, je donne mon accord à la
+direction de l’école pour l’utilisation de mon travail comme moyen de
+preuve.
+
+\item {} 
+\sphinxAtStartPar
+Je m’engage à ne pas rendre public mon travail avant l’évaluation finale.
+
+\item {} 
+\sphinxAtStartPar
+Je m’engage à respecter la Procédure d’archivage des travaux de
+maturité/travaux interdisciplinaires centrés sur un projet/travaux
+personnels/travaux de maturité spécialisée (TM/TIP/TP/TMS) en vigueur dans
+mon école.
+
+\item {} 
+\sphinxAtStartPar
+J’autorise la consultation de mon travail par des tierces personnes à des
+fins pédagogiques et/ou d’information interne à l’école :
+
+{
+\setstretch{1.5}
+\square \quad \text{oui} \\
+\square \quad \text{non (car il contient des données personnelles et sensibles).}
+}
+
+\end{enumerate}
+
+{
+\setstretch{2.5}
+\large
+\begin{tabbing}
+\textbf{Lieu, date:} ~~ \=  \= \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots \\
+\textbf{Signature:} ~~~ \>  \> \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots
+\end{tabbing} 
+}
+
+
+\end{normalsize}
+
+
+\section{Travaux complémentaires}
+\label{\detokenize{chapitre-06:travaux-complementaires}}
+
+\subsection{Recherches Artistiques}
+\label{\detokenize{chapitre-06:recherches-artistiques}}
+\sphinxAtStartPar
+Dans le but de créer un design web cohérent, il est primordial de commencer par se pencher sur l’identité visuelle et l’univers de Candide. Après plusieurs discussions, certains aspects importants sont ressortis.\\
+Tout d’abord, il s’agit d’un comité étudiant humanitaire, il est alors important que les couleurs et les images évoquent la bienveillance, la convivialité et la motivation. Les couleurs doivent alors être plutôt lumineuses et intenses afin de faire ressortir ces aspects. Aussi, la protection de l’environnement représente une valeur importante et majeure pour le comité, la prédominance du vert semble alors naturelle.\\
+Ensuite, une atmosphère à l’inspiration rétro évoque la notion de recyclage et récupération. Une inspiration des 70’s induit aussi l’idée du « Peace and Love » ce qui représente plutôt bien la philosophie du comité. Cette inspiration se ressent par la présence d’orange, couleur représentative de la période art\sphinxhyphen{}déco. Elle permet également d’énergiser les pages et de contraster avec le vert, dominant.\\
+Les formes, elles aussi, ont leur importance. En effet, elles font partie du langage graphique et influent l’atmosphère du design. Ici, les formes rectangulaires sont adoucies, sauf pour les images qui elles gardent un format standard. L’aspect circulaire vient du logo préexistant, qui suit la forme du C et d’une mappemonde.\\
+Les couleurs de ce site sont très vives, ce qui peut constituer une surcharge visuelle, c’est pourquoi une image plus douce sert d’arrière\sphinxhyphen{}plan en haut de chaque page du site Web. Cette image correspond parfaitement à l’identité visuelle de Candide et du site en règle générale : prédominance de vert plutôt neutre, touches d’orange et présence de fleurs qui rappelle l’importance de la protection de la nature pour le comité.
 
 \begin{figure}[htbp]
 \centering
 \capstart
 
-\noindent\sphinxincludegraphics[width=1.000\linewidth]{{MoodBoard}.png}
-\caption{Mood Board}\label{\detokenize{chapitre-02:id1}}\end{figure}
+\noindent\sphinxincludegraphics[width=1.000\linewidth]{{moodboard}.jpg}
+\caption{MoodBoard du comité étudiant humanitaire du Collège du Sud}\label{\detokenize{chapitre-06:id1}}\end{figure}
 
 
-\section{La structure du Site}
-\label{\detokenize{chapitre-02:la-structure-du-site}}
+\subsection{Maquettes}
+\label{\detokenize{chapitre-06:maquettes}}
 \sphinxAtStartPar
-Le choix des différentes pages du site a aussi demandé de longues discussions.
+Trois prototypes du site Web de Candide sont réalisés dans le cadre de ce Travail de Maturité et sont sujets à de nombreuses discussions afin d’arriver à un choix final. Chacune a connu de multiples modifications dans le but d’être rendue fidèle à l’image du comité et à celle que le comité décide de véhiculer.
 
-\sphinxAtStartPar
-Tout d’abord la question s’est portée sur les informations qui doivent demeurer sur la page d’accueil du site.\\
-Premièrement une courte description de ce qu’est Candide semblait nécessaire pour que chacun puisse savoir facilement de quoi il s’agit. Ensuite, comme Candide est un association qui base ses valeurs sur l’action, il est important de parler de l’actualité de Candide et des prochains événements auxquels il est possible de participer. Enfin, rappeler que Candide est toujours prêt à accueillir de nouveaux membres semble essentiel.
 
+\subsubsection{Première maquette}
+\label{\detokenize{chapitre-06:premiere-maquette}}
 \sphinxAtStartPar
-Il est tout à fait possible que grand nombre des visiteurs du site ne savent pas réellement ce qu’est Candide, une page de présentation sera alors très utile. Sur cette page, après une description plus détaillée de l’association, un résumé des objectifs atteint ainsi que les photos du comité au fil des ans, permettra d’humaniser le site et de permettre une vision d’ensemble sur l’activité de l’association.
-
-\sphinxAtStartPar
-Comme préalablement stipulé, Candide mise sur l’action, il est alors essentiel que le site internet compte un page ou chaque événement organisé est expliqué. Les associations, externes au Collège du Sud, avec lesquelles Candide a travaillé seront mises en avant sur cette page, car il est important que le comité mette en avant son historique d’actions pour montrer que ses actions sont concrètes.
+À partir des informations dont Candide a fait part, démarre la conception d’une première maquette. Celle\sphinxhyphen{}ci est directement basée sur le moodboard et cherche à être au plus proche de leurs souhaits.
 
 \sphinxAtStartPar
-Finalement une page contact n’apportera que du positif au site et au comité, car il mettra à disposition un moyen de joindre et de rejoindre l’association en tout temps.
+Suite à cela, deux autres maquettes plus libres sont inventées, afin d’explorer des nouvelles pistes.
 
 
-\section{Les Maquettes}
-\label{\detokenize{chapitre-02:les-maquettes}}
-
-\subsection{n°1}
-\label{\detokenize{chapitre-02:n1}}
+\subsubsection{Première maquette « d’exploration »}
+\label{\detokenize{chapitre-06:premiere-maquette-dexploration}}
 \sphinxAtStartPar
-À partir des information dont Candide m’a fait part, je me suis lancée dans la conception d’une première maquette. Celle\sphinxhyphen{}ci était directement basée sur le moodboard, afin de remplir au mieux les demandes de Candide. Je n’ai alors pas réellement ajouté d’éléments, j’ai simplement appliqué les demandes de Candide dans le but qu’elle correspondre exactement à leur souhaits.\\
-Ce premier prototype a demandé plus de temps pour être créer, car il s’agissait de ma première utilisation de Adobe XD. En effet, bien que cet outil m’ait été inconnu jusqu’à ce moment, il semblait être parfait pour la création de maquette de site web. La compréhension de ce logiciel me pris un certain temps, mais la qualité des rendus en valait la peine.
-
-
-\subsection{n°2}
-\label{\detokenize{chapitre-02:n2}}
-\sphinxAtStartPar
-Après avoir terminé la première maquette, j’ai pris la décision d’en proposer deux nouvelles qui permettront peut\sphinxhyphen{}être à Candide d’avoir plus de choix et de voir autre chose que ce à quoi ils pouvaient s’attendre.
-
-\sphinxAtStartPar
-La deuxième maquette reste plutôt sobre dans ses couleurs, mais les polices apportent l’aspect plus fun du comité étudiant. Cependant la structure du site reste la même, seule certains aspects de la mise\sphinxhyphen{}en\sphinxhyphen{}page ont été modifiés. Avec ce nouveau prototype, la page de présentation des comité est beaucoup plus claire.\\
-Ceoendant, les couleurs restent trop ternes et les membres de Candide aimerait donner à leur site un aspect moins grisatre, pour vraiment mettre en avant la bienveillance du comité.
+La première maquette « d’exploration » est plutôt sobre dans ses couleurs. Cependant, les polices apportent l’aspect plus décontracté du comité étudiant. La structure du site, quant à elle, reste la même et seuls certains éléments de la mise\sphinxhyphen{}en\sphinxhyphen{}page ont été modifiés. Avec ce nouveau prototype, la page de présentation des comités au fil des années est beaucoup plus claire.\\
+Malheureusement, les couleurs restent trop ternes et les membres de Candide aimeraient donner à leur site un aspect moins grisâtre, pour mettre en avant la bienveillance du comité de façon plus marquée.
 
 \begin{figure}[htbp]
 \centering
 \capstart
 
 \noindent\sphinxincludegraphics[width=1.000\linewidth]{{Proto2}.png}
-\caption{2ème Prototype Teste}\label{\detokenize{chapitre-02:id2}}\end{figure}
+\caption{Première maquette « d’exploration »}\label{\detokenize{chapitre-06:id2}}\end{figure}
 
 
-\subsection{n°3}
-\label{\detokenize{chapitre-02:n3}}
+\subsubsection{Deuxième maquette « d’exploration »}
+\label{\detokenize{chapitre-06:deuxieme-maquette-dexploration}}
 \sphinxAtStartPar
-Le troisième et dernier prototype est lui beaucoup classe. Bien que les couleurs soient sombres, le vert domine et met en avant le souhait de Candide d’agir pour la préservation de l’environnement. Il donne aussi une image beaucoup plus professionel à Candide, mais ce n’est pas nécessairement ce que le comité veut mettre en avant. Il est effectivement important de garder en tête qu’il s’agit d’un comité étudiant et ne pas rendre ce site trop classique.
+La seconde maquette « d’exploration » amène un aspect plus moderne et classique que la précédente. Un vert sombre domine et met en avant le souhait de Candide d’agir pour la préservation de l’environnement. Le côté atténué de la couleur donne, quant à lui, une image beaucoup plus professionnelle au comité.  En revanche, après discussion avec les étudiants, ils ne désirent pas mettre cela en avant. Il est effectivement important de garder en tête qu’il s’agit d’un comité étudiant et ne pas rendre ce site trop classique.
 
 \begin{figure}[htbp]
 \centering
 \capstart
 
 \noindent\sphinxincludegraphics[width=1.000\linewidth]{{Proto3}.png}
-\caption{3ème Prototype Teste}\label{\detokenize{chapitre-02:id3}}\end{figure}
+\caption{Deuxième maquette « d’exploration »}\label{\detokenize{chapitre-06:id3}}\end{figure}
 
 
-\section{Le Choix Final}
-\label{\detokenize{chapitre-02:le-choix-final}}
+\subsubsection{Choix final}
+\label{\detokenize{chapitre-06:choix-final}}
 \sphinxAtStartPar
-Après plusieurs discussions et modifications de chaque maquette, l’idée choisie a été la première. Elle est celle qui correspondait d’ailleurs plus à la description de ce que Candide voulait, bien qu’elle ait subit beaucoup de modifications pour la rendre plus classe mais tout en restant jeune. Les changements apporté ont d’ailleurs beaucoup été indpiré du 3ème prototype dans le but d’apporter un dimension beaucoup plus professionelle au site.
+Après plusieurs discussions et modifications de chaque maquette, l’idée sélectionnée est la première. Elle est celle qui correspond d’ailleurs le plus à la description de ce que Candide veut, bien qu’elle ait subi beaucoup de modifications pour la rendre plus sobre, mais tout en restant moderne. Les changements apportés sont d’ailleurs largement inspirés du troisième prototype dans le but d’apporter une dimension beaucoup plus professionnelle au site.
 
 \begin{figure}[htbp]
 \centering
 \capstart
 
 \noindent\sphinxincludegraphics[width=1.000\linewidth]{{Proto_final}.png}
-\caption{Maquette finale du site de Candide}\label{\detokenize{chapitre-02:id4}}\end{figure}
+\caption{Maquette finale du site de Candide}\label{\detokenize{chapitre-06:id4}}\end{figure}
 
 
-\chapter{Programmation}
-\label{\detokenize{chapitre-03:programmation}}\label{\detokenize{chapitre-03::doc}}
-
-\section{Apprentissage}
-\label{\detokenize{chapitre-03:apprentissage}}
-\sphinxAtStartPar
-N’ayant que très peu de connaissances en programmation, j’ai dû, dès l’été, me familiariser avec les langages HTML et CSS afin de pouvoir coder mon site internet. Pour ce faire, j’ai d’abord créé quelques petits projet en suivant des tutos sur internet, puis j’ai essayé de m’en détacher pour tenter de faire un mini\sphinxhyphen{}site sans simplement suivre les gestes de quelqu’un. Ensuite, pour comprendre l’utilisation des classes, des grids et d’autres technologies de ce genre, je me suis tournée vers des jeux pédagogiques et des vidéos explicatives.
-
-
-\section{Difficultés}
-\label{\detokenize{chapitre-03:difficultes}}
-\sphinxAtStartPar
-Après avoir revu plusieurs fois la maquette avec le comité pour qu’elle réponde au mieux à leurs besoins et m’être renseignée au propos de ces nouvelles technologies qui allaient m’être utiles, Je me suis enfin lancée dans la programmation de ce site web.
+\chapter{Tutoriel Sphinx / MyST}
+\label{\detokenize{tutoriel-sphinx/index:tutoriel-sphinx-myst}}\label{\detokenize{tutoriel-sphinx/index::doc}}
+\begin{sphinxadmonition}{note}{En bref}
 
 \sphinxAtStartPar
-Cette étape a été particulièrement difficile, car j’ai été confrontée à de nombreux défis que je devais surmonter de manière autonome. Bien qu’ayant passé beaucoup de temps à essayer de comprendre et utiliser correctement les différentes technologies, j’ai fait face à énormément de difficultés auxquelles je n’avais pas pensé. En effet, pour la réalisation de ce projet il m’a fallu résoudre une très grande quantité de problèmes inattendus.\\
-J’ai notamment eu beaucoup de difficultés à organiser les différents layers. En effet, il n’était pas rare que des éléments se retrouve au très mauvais endroit et que je ne sache pas comment le déplacer. Un des problèmes qui est souvent revenu est un bloc blanc au bas de mes pages, j’ignore d’ailleurs encore la raison de sa présence. De plus, beaucoup de problèmes liés notamment à mon manque d’habitude sont apparus.
+Sphinx est le système de documentation du langage Python (\sphinxurl{https://www.sphinx-doc.org/en/master/}).
 
-
-\section{Apprendre de ses erreurs}
-\label{\detokenize{chapitre-03:apprendre-de-ses-erreurs}}
 \sphinxAtStartPar
-Cette partie du TM m’a permis de prendre en autonomie car elle m’a forcé à trouver seule des solutions à mes problèmes. On nous apprend souvent à aller voir la réponse si on fait une erreur, mais là il s’agissait d’aller voir le corriger et le comprendre pour l’appliquer dans un autre contexte. Cette manière de faire demande de comprendre exactement chaque mot de notre code, ce qui fait beaucoup, surtout pour une novice comme je le suis. Cette étape a alors été autant enrichissante qu’éprouvante !
+Ce tutoriel, livré avec le kit de démarrage Sphinx pour la rédaction du travail écrit de votre TM, vous permet d’acquérir rapidement les bases de la syntaxe Sphinx.
+\end{sphinxadmonition}
+
+
+\section{Fonctionnement de la toolchain Sphinx}
+\label{\detokenize{tutoriel-sphinx/fonctionnement:fonctionnement-de-la-toolchain-sphinx}}\label{\detokenize{tutoriel-sphinx/fonctionnement::doc}}
+\sphinxAtStartPar
+Avant de commencer, il faut comprendre le fonctionnement général de Sphinx. Il
+s’agit d’une « toolchain », à savoir un ensemble d’outils qui permettent de
+transformer des fichiers Markdown en documents formatés (soit HTML pour le Web
+ou LaTeX pour produire un PDF).
+
+\sphinxAtStartPar
+Pour les personnes qui connaissent un peu le LaTeX, Sphinx est un système un peu
+analogue: on écrit du code et un outil s’occupe de tout mettre en page et faire
+la reliure de manière professionnelle. D’ailleurs, Sphinx permet de générer du
+LaTeX pour générer un document PDF.
+
+\sphinxAtStartPar
+Au contraire de Microsoft Word, où l’on voit directement le résultat final
+lorsqu’on écrit le contenu, Sphinx utilise un paradigme semblable à celui
+utilisé en LaTeX: on écrit du code avec une syntaxe particulière qui est ensuite
+transformé dans le résultat final par la toolchain.
+
+\begin{figure}[htbp]
+\centering
+\capstart
+
+\noindent\sphinxincludegraphics[width=1.000\linewidth]{{tutoriel-sphinx/figures/make-html}.png}
+\caption{Processus de génération du HTML avec Sphinx}\label{\detokenize{tutoriel-sphinx/fonctionnement:id1}}\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\capstart
+
+\noindent\sphinxincludegraphics[width=1.000\linewidth]{{tutoriel-sphinx/figures/make-tmpdf}.png}
+\caption{Processus de génération du PDF avec Sphinx}\label{\detokenize{tutoriel-sphinx/fonctionnement:id2}}\end{figure}
+
+
+\subsection{Les avantages de Sphinx par rapport à Word}
+\label{\detokenize{tutoriel-sphinx/fonctionnement:les-avantages-de-sphinx-par-rapport-a-word}}
+\sphinxAtStartPar
+Par rapport à Word, Sphinx présente les avantages suivants
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Sphinx est un outil Open\sphinxhyphen{}Source, ce qui signifie qu’on peut l’adapter sans
+problème à n’importe quel besoin. De plus, il n’y a aucun risque que le
+système ne soit tout\sphinxhyphen{}à\sphinxhyphen{}coup plus supporté, car une importante communauté s’occupe de le faire évoluer et de corriger les bugs détectés.
+
+\item {} 
+\sphinxAtStartPar
+On écrit de la documentation dans des fichiers qui ne contiennent que du
+texte, comme une sorte de « code source ».
+
+\item {} 
+\sphinxAtStartPar
+On écrit le contenu dans Visual Studio Code ou un autre éditeur. On peut donc
+utiliser toute la puissance de tels éditeurs pour optimiser la rédaction du contenu.
+
+\item {} 
+\sphinxAtStartPar
+Le contenu est très facilement versionalisable (utilisation de git et Github).
+
+\item {} 
+\sphinxAtStartPar
+Permet d’intégrer très facilement les éléments suivants qui sont très courants
+dans un travail de maturité en informatique
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Des mathématiques
+
+\item {} 
+\sphinxAtStartPar
+Du code source
+
+\item {} 
+\sphinxAtStartPar
+Des éléments interactifs (quiz, programmes qui s’exécutent directement dans
+le navigateur, etc. )
+
+\end{itemize}
+
+\item {} 
+\sphinxAtStartPar
+À partir d’une seule source, on peut générer des documents pour différentes
+cibles (Site Web, Document PDF, e\sphinxhyphen{}book pour une liseuse, …)
+
+\item {} 
+\sphinxAtStartPar
+Le système est extensible et facilement personnalisable
+
+\item {} 
+\sphinxAtStartPar
+Lorsqu’on écrit un document pour Sphinx, il n’est pas nécessaire de se
+préoccuper de la mise en page et de la mise en forme du contenu. On se
+contente d’écrire
+
+\end{itemize}
+
+
+\subsection{Les désavantages de Sphinx par rapport à Word}
+\label{\detokenize{tutoriel-sphinx/fonctionnement:les-desavantages-de-sphinx-par-rapport-a-word}}\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+L’utilisation de Sphinx est moins intuitive que celle de Word au début.
+
+\item {} 
+\sphinxAtStartPar
+Word est un traitement de texte de type « WYSIWYG » (What You See Is What You
+Get). Lorsqu’on écrit le contenu dans Word, on voit directement le résultat
+final. Sphinx est un système de rédaction de type « WYSIWYM » (What You See Is
+What You Mean). Comme on ne voit pas directement le résultat final, il faut
+être attentif lors de la relecture du résultat final. On peut parfois avoir de sacrées surprises, en raison d’une erreur de syntaxe par exemple.
+
+\item {} 
+\sphinxAtStartPar
+La correction orthographique est moins facile qu’en Word, car il n’existe pas
+d’outil parfaitement intégré qui permette de faire la correction de manière
+automatique. Il est toutefois possible de passer du Sphinx à Word (avec un rendu dégradé), pour utiliser le correcteur automatique de Microsoft Word.
+
+\end{itemize}
+
+
+\section{Les bases de la rédaction avec Sphinx}
+\label{\detokenize{tutoriel-sphinx/bases:les-bases-de-la-redaction-avec-sphinx}}\label{\detokenize{tutoriel-sphinx/bases:sphinx-bases}}\label{\detokenize{tutoriel-sphinx/bases::doc}}
+\begin{sphinxadmonition}{note}{En cours de rédaction}
+
+\sphinxAtStartPar
+Cette section est en cours de rédaction et sera complétée à l’avenir.
+\end{sphinxadmonition}
+
+
+\subsection{Fichiers Markdown ou RestructuredText}
+\label{\detokenize{tutoriel-sphinx/bases:fichiers-markdown-ou-restructuredtext}}
+\sphinxAtStartPar
+Le contenu à promprement parler est écrit dans des fichiers textes au format
+Markdown / MyST (voir)
+
+\begin{sphinxadmonition}{tip}{Astuce:}
+\sphinxAtStartPar
+Pour écrire le TM, il est conseillé d’utiliser le format MyST qui
+
+\sphinxAtStartPar
+dispose d’une \sphinxhref{https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight}{extension Visual Studio Code très pratique} (https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst\sphinxhyphen{}highlight).
+\end{sphinxadmonition}
+
+
+\subsection{Bien démarrer}
+\label{\detokenize{tutoriel-sphinx/bases:bien-demarrer}}
+\sphinxAtStartPar
+Pour le moment, il est recommandé de travailler sur Gitpod pour rédiger votre
+TM, à moins que vous ayez Linux installé sur votre machine et que vous soyez à
+l’aise avec.
+
+\begin{sphinxadmonition}{note}{Information}
+
+\sphinxAtStartPar
+Nous allons apprendre à utiliser Linux ces prochains mois au cours d’OC.
+\end{sphinxadmonition}
+
+\sphinxAtStartPar
+En attendant que ce tutoriel soit plus fourni, reportez\sphinxhyphen{}vous à la documentation
+officielle de MyST
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+https://myst\sphinxhyphen{}parser.readthedocs.io/en/latest/sphinx/intro.html\#intro\sphinxhyphen{}writing
+
+\item {} 
+\sphinxAtStartPar
+https://myst\sphinxhyphen{}parser.readthedocs.io/en/latest/syntax/syntax.html\#
+
+\item {} 
+\sphinxAtStartPar
+https://myst\sphinxhyphen{}parser.readthedocs.io/en/latest/syntax/optional.html
+
+\item {} 
+\sphinxAtStartPar
+https://myst\sphinxhyphen{}parser.readthedocs.io/en/latest/syntax/reference.html
+
+\end{itemize}
+
+\sphinxAtStartPar
+Il peut également être utile de consulter la documentation de Sphinx pour savoir
+comment utiliser les fonctionnalités avancées.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+https://www.sphinx\sphinxhyphen{}doc.org/en/master/index.html
+
+\end{itemize}
+
+
+\section{Insérer du code}
+\label{\detokenize{tutoriel-sphinx/inserer-code:inserer-du-code}}\label{\detokenize{tutoriel-sphinx/inserer-code::doc}}
+\begin{sphinxadmonition}{note}{Objectifs de cette page}
+
+\sphinxAtStartPar
+Cette page montre comment insérer du code Python, HTML ou Javascript dans la documentation.
+\end{sphinxadmonition}
+
+\begin{sphinxadmonition}{note}{Remarque}
+
+\sphinxAtStartPar
+Ma nouvelle remarque
+\end{sphinxadmonition}
+
+
+\subsection{Insertion simple}
+\label{\detokenize{tutoriel-sphinx/inserer-code:insertion-simple}}
+\sphinxAtStartPar
+Le plus simple pour insérer du code dans la documentation est d’utiliser les outils natifs mis à disposition par Markdown pour cela. Cela ne laisse cependant que peu de marge de manoeuvre de personnalisation.
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{math} \PYG{k+kn}{import} \PYG{n}{pi}
+
+\PYG{k}{def} \PYG{n+nf}{foo}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{)}\PYG{p}{:}
+    \PYG{k}{return} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{foo}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{20}\PYG{p}{)}\PYG{p}{)}
+\end{sphinxVerbatim}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{let} \PYG{n+nx}{maVariable} \PYG{o}{=} \PYG{l+m+mf}{3}\PYG{p}{;}
+\end{sphinxVerbatim}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{html}\PYG{p}{\PYGZgt{}}
+    \PYG{p}{\PYGZlt{}}\PYG{n+nt}{body}\PYG{p}{\PYGZgt{}}
+    \PYG{p}{\PYGZlt{}}\PYG{p}{/}\PYG{n+nt}{body}\PYG{p}{\PYGZgt{}}
+\PYG{p}{\PYGZlt{}}\PYG{p}{/}\PYG{n+nt}{html}\PYG{p}{\PYGZgt{}}
+\end{sphinxVerbatim}
+
+\begin{sphinxadmonition}{note}{Code Markdown}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{l+s+sb}{```}\PYG{l+s+sb}{python}
+\PYG{k+kn}{from} \PYG{n+nn}{math} \PYG{k+kn}{import} \PYG{n}{pi}
+
+\PYG{k}{def} \PYG{n+nf}{foo}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{)}\PYG{p}{:}
+    \PYG{k}{return} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{foo}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{20}\PYG{p}{)}\PYG{p}{)}
+\PYG{l+s+sb}{```}
+\end{sphinxVerbatim}
+\end{sphinxadmonition}
+
+
+\subsection{Plus de flexibilité}
+\label{\detokenize{tutoriel-sphinx/inserer-code:plus-de-flexibilite}}
+\sphinxAtStartPar
+On peut également utiliser la direction Sphinx \sphinxcode{\sphinxupquote{code\sphinxhyphen{}block}} pour insérer du code de manière plus sophistiquée, avec de la numérotation automatique, des lignes mises en évidence et des tas d’autres options (voir)
+
+\fvset{hllines={, 3, 4,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\},numbers=left,firstnumber=1,stepnumber=1]
+\PYG{k+kn}{from} \PYG{n+nn}{math} \PYG{k+kn}{import} \PYG{n}{pi}
+
+\PYG{k}{def} \PYG{n+nf}{foo}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{)}\PYG{p}{:}
+    \PYG{k}{return} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}
+\end{sphinxVerbatim}
+\sphinxresetverbatimhllines
+
+\begin{sphinxadmonition}{note}{Code Markdown}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{g+gu}{```\PYGZob{}code\PYGZhy{}block\PYGZcb{} python}
+\PYG{g+gu}{\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+emphasize\PYGZhy{}lines: 1
+\PYG{g+gu}{linenos: true}
+\PYG{g+gu}{\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+from math import pi
+
+def foo(a, b):
+    return a + b
+```
+\end{sphinxVerbatim}
+\end{sphinxadmonition}
+
+
+\subsection{Insérer du code depuis un fichier externe}
+\label{\detokenize{tutoriel-sphinx/inserer-code:inserer-du-code-depuis-un-fichier-externe}}
+\sphinxAtStartPar
+Il est également possible d’inclure du code dans la documentation depuis un fichier externe, au lieu d’avoir à écrire copier le code directement dans le fichier \sphinxcode{\sphinxupquote{.md}}.
+
+\fvset{hllines={, 1,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\},numbers=left,firstnumber=1,stepnumber=1]
+\PYG{k+kn}{from} \PYG{n+nn}{gturtle} \PYG{k+kn}{import} \PYG{o}{*}
+
+\PYG{n}{makeTurtle}\PYG{p}{(}\PYG{p}{)}
+
+\PYG{n}{forward}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}
+\end{sphinxVerbatim}
+\sphinxresetverbatimhllines
+
+
+\subsubsection{Titre 2}
+\label{\detokenize{tutoriel-sphinx/inserer-code:titre-2}}
+
+\paragraph{Titre 3}
+\label{\detokenize{tutoriel-sphinx/inserer-code:titre-3}}
+
+\section{Insérer des images}
+\label{\detokenize{tutoriel-sphinx/inserer-figures:inserer-des-images}}\label{\detokenize{tutoriel-sphinx/inserer-figures:chapter-insert-images}}\label{\detokenize{tutoriel-sphinx/inserer-figures::doc}}
+\begin{figure}[htbp]
+\centering
+\capstart
+
+\noindent\sphinxincludegraphics[width=1.000\linewidth]{{tutoriel-sphinx/figures/make-html}.png}
+\caption{Une légende}\label{\detokenize{tutoriel-sphinx/inserer-figures:id1}}\end{figure}
+
+
+\subsection{Insérer un tableau}
+\label{\detokenize{tutoriel-sphinx/inserer-figures:inserer-un-tableau}}
+
+\section{Fonctionnalités avancées}
+\label{\detokenize{tutoriel-sphinx/advanced-features:fonctionnalites-avancees}}\label{\detokenize{tutoriel-sphinx/advanced-features:advanced-features}}\label{\detokenize{tutoriel-sphinx/advanced-features::doc}}
+
+\subsection{Encadrés}
+\label{\detokenize{tutoriel-sphinx/advanced-features:encadres}}
+\begin{sphinxShadowBox}
+\sphinxstylesidebartitle{Encadré mis en évidence}
+
+\sphinxAtStartPar
+Ceci est un encadré qui sort du fil du texte (on dit que cet encadré et
+« flottant », car il flotte sur le texte principal).
+
+\sphinxAtStartPar
+La directive Sphinx \sphinxcode{\sphinxupquote{sidebar}} permet d’insérer certaines informations dans un
+encadré (dans le PDF) et dans une sorte de panneau flottant dans la version
+HTML.
+\begin{equation*}
+\begin{split}f(x) = 2x^2 + 1\end{split}
+\end{equation*}
+\sphinxAtStartPar
+Il faut commencer par placer le \sphinxcode{\sphinxupquote{sidebar}} dans le code Markdown et ensuite
+placer le contenu qui viendra se placer à gauche de la page.
+\end{sphinxShadowBox}
+
+\sphinxAtStartPar
+Paragraphe est écrit de manière normale, au fil du texte.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+On pourrait remplir avec du contenu …. mais ce contenu n’est pas très
+intéressant. Ce contenu peut faire plusieurs lignes dans le fichier Markdown.
+C’est tout de même un peu long.
+
+\end{itemize}
+
+\begin{sphinxadmonition}{warning}{Avertissement:}
+\sphinxAtStartPar
+Il ne faut pas trop abuser des « sidebars », car le placement n’est pas du tout le même sur la version HTML en ligne et dans la version PDF.
+
+\sphinxAtStartPar
+Il vaut éviter également de mettre trop de contenu dans les \sphinxcode{\sphinxupquote{sidebar}}.
+\end{sphinxadmonition}
+
+
+\subsection{Direction \sphinxstyleliteralintitle{\sphinxupquote{raw}}}
+\label{\detokenize{tutoriel-sphinx/advanced-features:direction-raw}}
+\begin{sphinxadmonition}{tip}{Astuce:}
+\sphinxAtStartPar
+La directive \sphinxcode{\sphinxupquote{raw}} permet de différencier le contenu présenté dans la version HTML et celui présent dans la version PDF. Elle permet également d’insérer du contenu tel quel pour profiter de toutes les fonctionnalités du format cible (par exemple le HTML ou le LaTeX).
+\end{sphinxadmonition}
+
+\sphinxAtStartPar
+Parfois, il est utile d’inclure un certain contenu (images, vidéos, …) dans la
+version HTML en ligne, mais de ne pas inclure ce contenu dans la version PDF.
+C’est typiquement le cas pour des vidéos ou d’autres éléments interactifs.
+
+
+
+En revanche, ce contenu n'apparaîtra que dans le LaTeX et pas dans le HTML.
+
+
+\begin{sphinxadmonition}{tip}{Astuce:}
+\sphinxAtStartPar
+L’avantage de la directive \sphinxcode{\sphinxupquote{raw}} est de pouvoir insérer n’importe quel code
+HTML, aussi exotique soit\sphinxhyphen{}il.
+\end{sphinxadmonition}
+
+
+\section{Références croisées}
+\label{\detokenize{tutoriel-sphinx/cross-references:references-croisees}}\label{\detokenize{tutoriel-sphinx/cross-references::doc}}
+\sphinxAtStartPar
+On peut faire référence à un autre chapitre \DUrole{xref,std,std-ref}{chapter\sphinxhyphen{}insert\sphinxhyphen{}images}.
+
+
+\chapter{Indices and tables}
+\label{\detokenize{index:indices-and-tables}}\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\DUrole{xref,std,std-ref}{genindex}
+
+\item {} 
+\sphinxAtStartPar
+\DUrole{xref,std,std-ref}{search}
+
+\end{itemize}
 
 
 

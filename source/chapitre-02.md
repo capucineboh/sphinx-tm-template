@@ -10,7 +10,10 @@ Pour finir, une page où il est possible de naviguer sur le site s’est ouverte
 ## Installation
 
 Source Documentation GitHub
+..  only:: html
 
+..  bibliography:: online.bib
+    :documentation-github:
 S’il est souhaité d’installer le projet localement, il est nécessaire de procéder de la manière suivante :
 
 1.	Il faut ouvrir un terminal sur l’ordinateur où l’installation locale est souhaitée. 
