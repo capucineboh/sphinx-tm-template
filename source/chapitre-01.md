@@ -5,9 +5,11 @@
 Ce projet n’est pas encore disponible en ligne sur un serveur permanent, il est alors encore obligatoire de passer par le site du GitPod pour y accéder, comme expliqué dans la documentation développeur. Cependant, il est prévu que le site soit mis en ligne lors de la présentation orale du travail de maturité en mai 2023. 
 
 ## Dépendances
+
 Ce projet ne contient aucune dépendance externe.
 
 ## Principales fonctionnalités du site
+
 Ce projet comporte de nombreuses fonctionnalités : 
 
 ### Vue d’ensemble 
@@ -28,6 +30,7 @@ Aussi, le site web comprend un menu de navigation simple permettant aux visiteur
 
 ### Fonctionnalité pratique
 
-Le design du site est responsive. Ce qui signifie qu’il a été pensé pour être utilisable sur tous type d’appareils. Ainsi, il s’adapte automatiquement à la taille de l’écran, permettant une expérience optimale sur différentes tailles d’écran.
+Le design du site est responsive ce qui signifie qu’il a été pensé pour être utilisable sur tous type d’appareils. Ainsi, il s’adapte automatiquement à la taille de l’écran, permettant une expérience optimale sur différentes tailles d’écran.
 
 
+ 
