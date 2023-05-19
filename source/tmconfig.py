@@ -1,6 +1,6 @@
 class TMConfig:
 
-    title = u"Création du site internet destiné au Comité Étudiant Humanitaire du Collège du Sud" 
+    title = u"Création du site web destiné au Comité Étudiant Humanitaire du Collège du Sud" 
     first_name = 'Capucine'
     last_name = 'Böhning'
     author = f'{first_name} {last_name}'

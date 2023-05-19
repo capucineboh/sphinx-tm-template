@@ -14,7 +14,7 @@ Ce projet comporte de nombreuses fonctionnalités :
 
 ### Vue d’ensemble 
 
-Une page d’accueil présente Candide comme le comité étudiant humanitaire du Collège du Sud. Elle permet également un aperçu rapide sur l’actualité future et récente du groupe, ainsi que les informations importantes pour y participer. Cette page invite aussi les étudiants intéressés à rejoindre le comité.
+Une page d’accueil présente Candide entant que le comité étudiant humanitaire du Collège du Sud. Elle permet également un aperçu rapide sur l’actualité future et récente du groupe, ainsi que les informations importantes pour y participer. Cette page invite aussi les étudiants intéressés à rejoindre le comité.
 
 ### Vue détaillée 
 
