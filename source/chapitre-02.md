@@ -10,10 +10,6 @@ Après avoir suivi ces étapes, une page s'ouvre dans votre navigateur où vous 
 
 ## Installation
 
-{cite:p}`documentation-github`
-[Documentation GitHub]({{cite:p}}documentation-github) [^2]
-
-
 
 Si l'installation locale du projet est souhaitée, il est nécessaire de procéder de la manière suivante :
 
@@ -35,8 +31,7 @@ De cette manière, le site peut être ouvert localement à n’importe quel mome
 
 ## Contributions  
 
-{cite:p}`documentation-gitclone` 
-[Documentation Git clone]({{cite:p}}documentation-gitclone) [^3]
+
 
 Il est possible pour tous développeurs d’apporter des modifications à ce projet. Ce site demande d’ailleurs à être mis à jour de manière régulière, afin qu’il reste actif et utile pour le comité. Plusieurs manipulations sont nécessaires à la contribution au site web de Candide.       
  
@@ -57,8 +52,7 @@ Il est possible pour tous développeurs d’apporter des modifications à ce pro
 
 ### HTML
 
-{cite:p}`documentation-meta`
-[Documentation Métadonnées]({{cite:p}}documentation-meta) [^4]
+
 
 Le code du site web de Candide est structuré conformément aux règles d’usage. Il est composé de quatre fichiers HTML correspondant aux quatre pages du site. Ceux-ci forment le squelette du site internet, car le langage de programmation HTML est un langage de balisage, ce qui signifie qu’il permet d’organiser les éléments d’une page et. de les classer selon leur type. Ces quatre fichiers déterminent la façon dont les différents éléments de la page, tels que les titres, les paragraphes, les images, les liens, les boutons et les formulaires, sont organisés et disposés sur celle-ci. C’est à l’intérieur de ces différents types de balises que se trouvent également les textes et les images qui forment le contenu du site. On les trouve sous la forme suivante : `<img>``<a></a>``<p></p>``<h1></h1>`      
 
